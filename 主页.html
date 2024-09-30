@@ -1,0 +1,142 @@
+<html><head><base href="https://www.blendercz.top/">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>3D Creation Software Homepage</title>
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+    header {
+        background-color: #fff;
+        padding: 10px 0;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    .logo {
+        font-size: 24px;
+        font-weight: bold;
+        color: #ff7f00;
+    }
+    .nav-links a {
+        margin-left: 20px;
+        text-decoration: none;
+        color: #333;
+    }
+    .hero {
+        background-image: url('splash_render-final_2k.webp');
+        background-size: cover;
+        background-position: center;
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-align: center;
+    }
+    .hero-content {
+        background-color: rgba(0,0,0,0.5);
+        padding: 40px;
+        border-radius: 10px;
+    }
+    h1 {
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+    .cta-button {
+        display: inline-block;
+        background-color: #ff7f00;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+        margin-right: 10px;
+    }
+    .news-section {
+        max-width: 1200px;
+        margin: 40px auto;
+        padding: 0 20px;
+    }
+    .news-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+    }
+    .news-item {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    .news-item img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+    .news-item-content {
+        padding: 15px;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">BlenderCz</div>
+            <div class="nav-links">
+                <a href="#">Features</a>
+                <a href="#">Download</a>
+                <a href="#">Support</a>
+                <a href="#">About</a>
+                <a href="#" class="cta-button">Donate</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>几何节点 文档</h1>
+            <p>该文档主要是为了大家方便的查找并快速了解或复习节点，更加详细的学习还是需要去看单独的教程。</p>
+            <p>后续会动态更新一些节点案例。</p>
+            <a href="blender/blender.html" class="cta-button">字典</a>
+            <a href="#" class="cta-button" style="background-color: transparent; border: 2px solid white;">其他</a>
+        </div>
+    </section>
+
+    <!-- <section class="news-section">
+        <h2>Latest News</h2>
+        <div class="news-grid">
+            <div class="news-item">
+                <img src="https://example.com/conference_image.jpg" alt="Conference announcement image">
+                <div class="news-item-content">
+                    <h3>3D Creator Conference</h3>
+                    <p>Annual Animation Festival submissions open</p>
+                </div>
+            </div>
+            <div class="news-item">
+                <img src="https://example.com/annual_report_image.jpg" alt="Annual report cover image">
+                <div class="news-item-content">
+                    <h3>3D Creator Foundation</h3>
+                    <p>2023 Annual Report</p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <script>
+        document.querySelector('.cta-button').addEventListener('click', function(e) {
+            if (this.getAttribute('href') === 'download.html') {
+                e.preventDefault();
+                window.location.href = 'download.html';
+            }
+        });
+    </script>
+</body>
+</html>
