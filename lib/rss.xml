@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[CHYIZ的学习库]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://blendercz.top/</link><image><url>https://blendercz.top/lib/media/favicon.png</url><title>CHYIZ的学习库</title><link>https://blendercz.top/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 29 Sep 2024 13:07:07 GMT</lastBuildDate><atom:link href="https://blendercz.top/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 29 Sep 2024 13:03:19 GMT</pubDate><copyright><![CDATA[CHYIZ]]></copyright><ttl>60</ttl><dc:creator>CHYIZ</dc:creator><item><title><![CDATA[节点]]></title><description><![CDATA[ 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[CHYIZ的学习库]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://blendercz.top/</link><image><url>https://blendercz.top/lib/media/favicon.png</url><title>CHYIZ的学习库</title><link>https://blendercz.top/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 03 Oct 2024 14:43:12 GMT</lastBuildDate><atom:link href="https://blendercz.top/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 03 Oct 2024 14:38:50 GMT</pubDate><copyright><![CDATA[CHYIZ]]></copyright><ttl>60</ttl><dc:creator>CHYIZ</dc:creator><item><title><![CDATA[节点]]></title><description><![CDATA[ 
  <br><br><img alt="Pasted image 20240927224904.png" src="https://blendercz.top/lib/media/pasted-image-20240927224904.png" style="width: 200px; max-width: 100%;"><br>目的
 该节点包含分配给网格的材质的编号，具体可以看这个节点的描述<a data-href="设置材质编号_Set Material Index" href="https://blendercz.top/blender/geo-node/材质/设置材质编号_set-material-index.html" class="internal-link" target="_self" rel="noopener">设置材质编号_Set Material Index</a>。
 <br><br>材质编号<br>根据材质属性列表中的材质编号。
@@ -186,8 +186,17 @@
 这些值以度为单位。
 复制<br>缩放<br>控制几何体在局部空间中的X、Y和Z缩放。1 的值表示原始比例。
 复制<br><br>几何数据<br>变换后的几何体。
-复制]]></description><link>https://blendercz.top/blender/geo-node/几何数据/操作/变换几何体_transform-geometry.html</link><guid isPermaLink="false">Blender/Geo Node/几何数据/操作/变换几何体_Transform Geometry.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Sun, 29 Sep 2024 12:10:41 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/img-20240816140300234.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/img-20240816140300234.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[拆分为实例]]></title><description><![CDATA[ 
- ]]></description><link>https://blendercz.top/blender/geo-node/几何数据/操作/拆分为实例.html</link><guid isPermaLink="false">Blender/Geo Node/几何数据/操作/拆分为实例.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Wed, 28 Aug 2024 13:25:59 GMT</pubDate></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
+复制]]></description><link>https://blendercz.top/blender/geo-node/几何数据/操作/变换几何体_transform-geometry.html</link><guid isPermaLink="false">Blender/Geo Node/几何数据/操作/变换几何体_Transform Geometry.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Sun, 29 Sep 2024 12:10:41 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/img-20240816140300234.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/img-20240816140300234.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
+ <br><br><img alt="Pasted image 20241002114453.png" src="https://blendercz.top/lib/media/pasted-image-20241002114453.png" style="width: 200px; max-width: 100%;"><br>目的
+节点根据群组ID将几何元素拆分为实例项。
+<br><br>几何数据<br>你想要拆分为实例的几何元素。
+复制<br>选中项<br>你想要哪些部分几何体拆分为实例。未在选择中的部分将不在节点的输出中。
+复制<br>群组ID<br>ID属性（整数）用于区分不同的组来拆分来实例。
+复制<br><br>实例<br>拆分后转为实例的几何元素。
+复制<br>群组ID<br>输入接口的群组ID值。
+复制<br><br>域类型<br>是否从点、边、面、面拐、样条线或实例中拆分。
+复制<br><br><img alt="Pasted image 20241002122028.png" src="https://blendercz.top/lib/media/pasted-image-20241002122028.png"><br>
+<a data-tooltip-position="top" aria-label="EX_拆分为实例.canvas" data-href="EX_拆分为实例.canvas" href="https://blendercz.top/blender/示例文件/ex_拆分为实例.html" class="internal-link" target="_self" rel="noopener">EX_拆分为实例</a>]]></description><link>https://blendercz.top/blender/geo-node/几何数据/操作/拆分为实例_split-to-instances.html</link><guid isPermaLink="false">Blender/Geo Node/几何数据/操作/拆分为实例_Split to Instances.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Wed, 02 Oct 2024 04:20:36 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20241002114453.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20241002114453.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
  <br><br><img alt="IMG-20240927230017269.png" src="https://blendercz.top/lib/media/img-20240927230017269.png" style="width: 200px; max-width: 100%;"><br>目的
 通过选中项来分离输入的几何体变成两部分，输出选中的几何体和未选中的几何体
 <br><br>几何体<br>在这种情况下，“几何体”输入允许使用以下类型的几何体：网格、曲线和点。
@@ -216,6 +225,16 @@
 复制<br>副本编号<br>一个有序列表，包含每个重复对象的索引。
 复制<br><br><img alt="IMG-20240828110659640.png" src="https://blendercz.top/lib/media/img-20240828110659640.png"><br>
 <a data-tooltip-position="top" aria-label="EX_复制元素.canvas" data-href="EX_复制元素.canvas" href="https://blendercz.top/blender/示例文件/ex_复制元素.html" class="internal-link" target="_self" rel="noopener">EX_复制元素</a>]]></description><link>https://blendercz.top/blender/geo-node/几何数据/操作/复制元素_duplicate-elements.html</link><guid isPermaLink="false">Blender/Geo Node/几何数据/操作/复制元素_Duplicate Elements.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Wed, 28 Aug 2024 13:25:59 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20240816160645.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20240816160645.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
+ <br><br><img alt="Pasted image 20241002122123.png" src="https://blendercz.top/lib/media/pasted-image-20241002122123.png" style="width: 200px; max-width: 100%;"><br>目的
+节点允许烘焙几何数据用来保存和加载动画或定格。它可以获得更好的性能。
+<br><br>
+<br>Blend文件必须先保存到磁盘才能烘焙数据。不能保证使用一个Blender版本写入的数据可以被另一个Blender版本读取。
+<br><br>几何数据<br>你想要烘焙的几何数据。
+复制<br>任何其他变量（灰色接口）<br>你可以烘焙其他变量属性等。
+复制<br><br>动画<br>烘焙你的时间线起始和结束的整个区间状态。
+复制<br>定格<br>烘焙你当前帧的状态。
+复制<br><br><img alt="Pasted image 20241002144320.png" src="https://blendercz.top/lib/media/pasted-image-20241002144320.png"><img alt="Pasted image 20241002144327.png" src="https://blendercz.top/lib/media/pasted-image-20241002144327.png"><br>
+<a data-tooltip-position="top" aria-label="EX_烘焙.canvas" data-href="EX_烘焙.canvas" href="https://blendercz.top/blender/示例文件/ex_烘焙.html" class="internal-link" target="_self" rel="noopener">EX_烘焙</a>]]></description><link>https://blendercz.top/blender/geo-node/几何数据/操作/烘焙_bake.html</link><guid isPermaLink="false">Blender/Geo Node/几何数据/操作/烘焙_Bake.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Wed, 02 Oct 2024 06:44:00 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20241002122123.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20241002122123.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
  <br><br><img alt="Pasted image 20240816140441.png" src="https://blendercz.top/lib/media/pasted-image-20240816140441.png" style="width: 200px; max-width: 100%;"><br>目的
 删除几何节点会删除其接收到的任何几何体。
 <br><br>几何体<br>在这种情况下，几何体输入允许以下类型的几何体：网格、曲线和点。
@@ -225,6 +244,13 @@
 复制<br>删除模式<br>当域类型为点、边或面时，您可以选择删除与之相关的所有内容，仅删除边或面，或仅删除面。
 复制<br><br><img alt="IMG-20240828110659632.png" src="https://blendercz.top/lib/media/img-20240828110659632.png"><img alt="IMG-20240828110700262.png" src="https://blendercz.top/lib/media/img-20240828110700262.png"><br>
 <a data-tooltip-position="top" aria-label="EX_删除几何体.canvas" data-href="EX_删除几何体.canvas" href="https://blendercz.top/blender/示例文件/ex_删除几何体.html" class="internal-link" target="_self" rel="noopener">EX_删除几何体</a>]]></description><link>https://blendercz.top/blender/geo-node/几何数据/操作/删除几何体_delete-geometry.html</link><guid isPermaLink="false">Blender/Geo Node/几何数据/操作/删除几何体_Delete Geometry.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Wed, 28 Aug 2024 13:25:59 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20240816140441.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20240816140441.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
+ <br><br><img alt="Pasted image 20241001222600.png" src="https://blendercz.top/lib/media/pasted-image-20241001222600.png" style="width: 200px; max-width: 100%;"><br>目的
+节点输出包裹几何体的凸网格，该凸网格包裹输入几何体的所有点。
+<br><br>几何数据<br>你要被凸壳包裹的几何数据。
+复制<br><br>凸壳<br>输出包裹的网格体。
+复制<br><br><img alt="Pasted image 20241001223938.png" src="https://blendercz.top/lib/media/pasted-image-20241001223938.png"><br>
+<img alt="Pasted image 20241001223945.png" src="https://blendercz.top/lib/media/pasted-image-20241001223945.png"><br>
+<a data-tooltip-position="top" aria-label="EX_凸壳.canvas" data-href="EX_凸壳.canvas" href="https://blendercz.top/blender/示例文件/ex_凸壳.html" class="internal-link" target="_self" rel="noopener">EX_凸壳</a>]]></description><link>https://blendercz.top/blender/geo-node/几何数据/操作/凸壳_convex-hull.html</link><guid isPermaLink="false">Blender/Geo Node/几何数据/操作/凸壳_Convex Hull.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Tue, 01 Oct 2024 14:39:53 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20241001222600.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20241001222600.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
  <br><br><img alt="Pasted image 20240828222218.png" src="https://blendercz.top/lib/media/pasted-image-20240828222218.png" style="width: 200px; max-width: 100%;"><br>目的
 元素排序节点接收一个几何体，并根据某个权重对元素的索引进行排序。例如，您可以对网格的点、边或面编号进行排序。
 <br><br>几何体<br>您希望重新排序索引的几何体
@@ -261,11 +287,11 @@
 复制<br>存在<br>如果由节点访问的属性出现在已连接的上下文中，则为真（1）。
 复制]]></description><link>https://blendercz.top/blender/geo-node/几何数据/读取/已命名属性_named-attribute.html</link><guid isPermaLink="false">Blender/Geo Node/几何数据/读取/已命名属性_Named Attribute.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Sat, 21 Sep 2024 04:23:10 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20240921114913.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20240921114913.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
  <br><br><img alt="IMG-20240902210624674.png" src="https://blendercz.top/lib/media/img-20240902210624674.png" style="width: 200px; max-width: 100%;"><br>目的
-该节点包含几何图形每个元素的ID值。默认情况下，该节点的值跟编号节点的值相同。你可以使用<a data-href="设置ID" href="https://blendercz.top/blender/geo-node/几何数据/写入/设置id.html" class="internal-link" target="_self" rel="noopener">设置ID</a>节点设置新的ID。
+该节点包含几何图形每个元素的ID值。默认情况下，该节点的值跟编号节点的值相同。你可以使用<a data-href="设置ID_Set ID" href="https://blendercz.top/blender/geo-node/几何数据/写入/设置id_set-id.html" class="internal-link" target="_self" rel="noopener">设置ID_Set ID</a>节点设置新的ID。
 <br><br>ID<br>场景中每个元素的ID值。
 复制<br><br>
 <br>该节点大多数情况下用于当你想要为每个元素赋予随机标识（或“索引”）时。
-<br><br><img alt="IMG-20240902210624703.png" src="https://blendercz.top/lib/media/img-20240902210624703.png">]]></description><link>https://blendercz.top/blender/geo-node/几何数据/读取/id.html</link><guid isPermaLink="false">Blender/Geo Node/几何数据/读取/ID.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Mon, 02 Sep 2024 13:06:24 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/img-20240902210624674.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/img-20240902210624674.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
+<br><br><img alt="IMG-20240902210624703.png" src="https://blendercz.top/lib/media/img-20240902210624703.png">]]></description><link>https://blendercz.top/blender/geo-node/几何数据/读取/id.html</link><guid isPermaLink="false">Blender/Geo Node/几何数据/读取/ID.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Tue, 01 Oct 2024 13:39:21 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/img-20240902210624674.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/img-20240902210624674.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
  <br><br><img alt="Pasted image 20240828221939.png" src="https://blendercz.top/lib/media/pasted-image-20240828221939.png" style="width: 200px; max-width: 100%;"><br>目的
 设置位置几何节点移动、旋转或缩放对象的几何形状。它只能应用于整个几何体，而不能应用于单独的元素。
 <br><br>几何数据<br>在这种情况下，几何体输入允许以下类型的几何体：网格、曲线和点。
@@ -276,6 +302,15 @@
 复制<br><br>几何体<br>输出改变位置后的几何体
 复制<br><br><img alt="IMG-20240828110659554.png" src="https://blendercz.top/lib/media/img-20240828110659554.png"><br>
 <a data-tooltip-position="top" aria-label="EX_设置位置.canvas" data-href="EX_设置位置.canvas" href="https://blendercz.top/blender/示例文件/ex_设置位置.html" class="internal-link" target="_self" rel="noopener">设置位置</a>]]></description><link>https://blendercz.top/blender/geo-node/几何数据/写入/设置位置_set-postition.html</link><guid isPermaLink="false">Blender/Geo Node/几何数据/写入/设置位置_Set Postition.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Wed, 28 Aug 2024 14:19:52 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20240828221939.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20240828221939.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
+ <br><br><img alt="IMG-20241001213921781.png" src="https://blendercz.top/lib/media/img-20241001213921781.png" style="width: 200px; max-width: 100%;"><br>目的
+节点可以给几何体添加ID属性。ID可用于<a data-href="随机值_Random Value" href="https://blendercz.top/blender/geo-node/实用工具/随机值_random-value.html" class="internal-link" target="_self" rel="noopener">随机值_Random Value</a>和<a data-href="拆分为实例_Split to Instances" href="https://blendercz.top/blender/geo-node/几何数据/操作/拆分为实例_split-to-instances.html" class="internal-link" target="_self" rel="noopener">拆分为实例_Split to Instances</a>等具有ID接口的节点，可以根据ID属性来分配值。
+<br><br>几何数据<br>要添加或重新设置ID值的几何体。
+复制<br>选中项<br>要哪些几何体添加或重新设置ID值。
+复制<br>ID<br>你要给每个元素设置的ID值，默认情况下此接口使用编号。
+复制<br><br>几何数据<br>带有ID属性或者新ID属性的几何体。
+复制<br><br><img alt="Pasted image 20241001221405.png" src="https://blendercz.top/lib/media/pasted-image-20241001221405.png"><br>
+<img alt="Pasted image 20241001221414.png" src="https://blendercz.top/lib/media/pasted-image-20241001221414.png"><br>
+<a data-tooltip-position="top" aria-label="EX_设置ID.canvas" data-href="EX_设置ID.canvas" href="https://blendercz.top/blender/示例文件/ex_设置id.html" class="internal-link" target="_self" rel="noopener">EX_设置ID</a>]]></description><link>https://blendercz.top/blender/geo-node/几何数据/写入/设置id_set-id.html</link><guid isPermaLink="false">Blender/Geo Node/几何数据/写入/设置ID_Set ID.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Wed, 02 Oct 2024 03:27:47 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/img-20241001213921781.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/img-20241001213921781.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
  <br><br><img alt="Pasted image 20240828222014.png" src="https://blendercz.top/lib/media/pasted-image-20240828222014.png" style="width: 200px; max-width: 100%;"><br>目的
 连接几何节点将多个输入合并为一个几何体。
 <br><br>几何体<br>在这种情况下，几何体输入允许有多个输入。
@@ -315,6 +350,20 @@
 <img alt="Pasted image 20240921220710.png" src="https://blendercz.top/lib/media/pasted-image-20240921220710.png"><br>
 <img alt="Pasted image 20240921220712.png" src="https://blendercz.top/lib/media/pasted-image-20240921220712.png"><br>
 <a data-tooltip-position="top" aria-label="EX_采样曲线.canvas" data-href="EX_采样曲线.canvas" href="https://blendercz.top/blender/示例文件/ex_采样曲线.html" class="internal-link" target="_self" rel="noopener">EX_采样曲线</a><br><br><br><a data-href="采样曲线.blend" href="https://blendercz.top/attachment/采样曲线.blend" class="internal-link" target="_self" rel="noopener">采样曲线.blend</a>]]></description><link>https://blendercz.top/blender/geo-node/曲线/采样/采样曲线_sample-curve.html</link><guid isPermaLink="false">Blender/Geo Node/曲线/采样/采样曲线_Sample Curve.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Sat, 21 Sep 2024 14:07:44 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20240921211005.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20240921211005.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
+ <br><br><img alt="IMG-20241002224518971.png" src="https://blendercz.top/lib/media/img-20241002224518971.png" style="width: 200px; max-width: 100%;"><br>目的
+类似粒子毛发中的子级插值型，可以在曲线间生成插值曲线。你可以用来制作不同曲线之间平滑过渡的曲线。
+<br><br>引导曲线<br>用做生成插值曲线的引导曲线（就是参照哪些曲线来生成插值曲线）。
+复制<br>引导朝上<br>设置引导线朝上的矢量，通常是表面的法向。一般配合点朝上一起使用。
+复制<br>引导群组ID<br>根据ID来分组引导曲线，同ID的曲线进行插值。一般配合点群组ID一起使用。
+复制<br>点<br>生成插值曲线的第一个控制点位置。类似[[实例化于点上_Instance on Points]]节点中点的使用。
+复制<br>点朝上<br>设置点朝上的矢量，通常是表面的法向。一般配合引导朝上一起使用。
+复制<br>点群组ID<br>根据ID来分组点，同ID的点上生成插值曲线。一般配合引导群组ID一起使用。
+复制<br>最大邻项<br>插值的曲线考虑邻近引导曲线的最大数量。
+复制<br><br>曲线<br>生成的插值曲线。
+复制<br>最近编号<br>生成的插值曲线最近的引导曲线的编号。
+复制<br>最近权重<br>生成的插值曲线的最近引导曲线的权重，离引导曲线越近权重值越接近1，越远权重值越接近0.5。
+复制<br><br><img alt="IMG-20241002224519023.png" src="https://blendercz.top/lib/media/img-20241002224519023.png"><img alt="IMG-20241002224519119.png" src="https://blendercz.top/lib/media/img-20241002224519119.png"><img alt="IMG-20241002224519254.png" src="https://blendercz.top/lib/media/img-20241002224519254.png"><br>
+<a data-tooltip-position="top" aria-label="EX_插值曲线.canvas" data-href="EX_插值曲线.canvas" href="https://blendercz.top/blender/示例文件/ex_插值曲线.html" class="internal-link" target="_self" rel="noopener">EX_插值曲线</a>]]></description><link>https://blendercz.top/blender/geo-node/曲线/操作/插值曲线_interpolate-curves.html</link><guid isPermaLink="false">Blender/Geo Node/曲线/操作/插值曲线_Interpolate Curves.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Wed, 02 Oct 2024 14:45:19 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/img-20241002224518971.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/img-20241002224518971.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
  <br><br><img alt="IMG-20240828110659695.png" src="https://blendercz.top/lib/media/img-20240828110659695.png" style="width: 200px; max-width: 100%;"><br>目的
 反转曲线节点可以反转任何曲线的方向。它可以交换曲线的起点和终点。
 <br><br>曲线<br>你要反转方向的曲线。
@@ -409,6 +458,11 @@
 复制<br><br>左<br>每个控制点的左控制柄的位置。
 复制<br>右<br>每个控制点的右控制柄的位置。
 复制]]></description><link>https://blendercz.top/blender/geo-node/曲线/读取/曲线控制柄位置_curve-handle-positions.html</link><guid isPermaLink="false">Blender/Geo Node/曲线/读取/曲线控制柄位置_Curve Handle Positions.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Wed, 18 Sep 2024 14:37:46 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20240918223101.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20240918223101.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
+ <br><br><img alt="IMG-20241002230007184.png" src="https://blendercz.top/lib/media/img-20241002230007184.png" style="width: 200px; max-width: 100%;"><br>目的
+该节点输出曲线上每个控制点切线的方向，你还可以通过<a data-href="反转曲线_Reverse Curve" href="https://blendercz.top/blender/geo-node/曲线/操作/反转曲线_reverse-curve.html" class="internal-link" target="_self" rel="noopener">反转曲线_Reverse Curve</a>节点来反向切线方向。输出值是规格化的矢量。
+<br><br>切向（正向）<br>曲线上每个控制点的切线矢量。
+复制<br><br><img alt="IMG-20241002230007247.png" src="https://blendercz.top/lib/media/img-20241002230007247.png"><br>
+<a data-tooltip-position="top" aria-label="EX_曲线切向.canvas" data-href="EX_曲线切向.canvas" href="https://blendercz.top/blender/示例文件/ex_曲线切向.html" class="internal-link" target="_self" rel="noopener">EX_曲线切向</a>]]></description><link>https://blendercz.top/blender/geo-node/曲线/读取/曲线切向_curve-tangent.html</link><guid isPermaLink="false">Blender/Geo Node/曲线/读取/曲线切向_Curve Tangent.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Wed, 02 Oct 2024 15:00:07 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/img-20241002230007184.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/img-20241002230007184.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
  <br><br><img alt="Pasted image 20240917214330.png" src="https://blendercz.top/lib/media/pasted-image-20240917214330.png" style="width: 200px; max-width: 100%;"><br>目的
 该节点包含曲线上每个点由<a data-href="设置曲线倾斜_Set Curve Tilt" href="https://blendercz.top/blender/geo-node/曲线/写入/设置曲线倾斜_set-curve-tilt.html" class="internal-link" target="_self" rel="noopener">设置曲线倾斜_Set Curve Tilt</a>节点设置的倾斜值。
 <br><br>倾斜<br>曲线上每个点的倾斜值。
@@ -493,8 +547,16 @@
 复制<br><br>曲线<br>带有新控制柄位置的贝塞尔曲线。
 复制<br><br>左或右<br>选择更改每个控制点的左侧还是右侧手柄的位置。
 复制<br><br><img alt="IMG-20240828110659675.png" src="https://blendercz.top/lib/media/img-20240828110659675.png"><br>
-<a data-tooltip-position="top" aria-label="EX_设置控制柄位置.canvas" data-href="EX_设置控制柄位置.canvas" href="https://blendercz.top/blender/示例文件/ex_设置控制柄位置.html" class="internal-link" target="_self" rel="noopener">EX_设置控制柄位置</a>]]></description><link>https://blendercz.top/blender/geo-node/曲线/写入/设置控制柄位置_set-handle-positions.html</link><guid isPermaLink="false">Blender/Geo Node/曲线/写入/设置控制柄位置_Set Handle Positions.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Wed, 28 Aug 2024 13:26:03 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20240826161009.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20240826161009.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[设置曲线半径]]></title><description><![CDATA[ 
- ]]></description><link>https://blendercz.top/blender/geo-node/曲线/写入/设置曲线半径.html</link><guid isPermaLink="false">Blender/Geo Node/曲线/写入/设置曲线半径.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Wed, 28 Aug 2024 13:26:03 GMT</pubDate></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
+<a data-tooltip-position="top" aria-label="EX_设置控制柄位置.canvas" data-href="EX_设置控制柄位置.canvas" href="https://blendercz.top/blender/示例文件/ex_设置控制柄位置.html" class="internal-link" target="_self" rel="noopener">EX_设置控制柄位置</a>]]></description><link>https://blendercz.top/blender/geo-node/曲线/写入/设置控制柄位置_set-handle-positions.html</link><guid isPermaLink="false">Blender/Geo Node/曲线/写入/设置控制柄位置_Set Handle Positions.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Wed, 28 Aug 2024 13:26:03 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20240826161009.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20240826161009.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
+ <br><br><img alt="IMG-20241002122625264.png" src="https://blendercz.top/lib/media/img-20241002122625264.png" style="width: 200px; max-width: 100%;"><br>目的
+该节点可以设置曲线的半径，用于<a data-href="曲线 转换为 网格_Curve to Mesh" href="https://blendercz.top/blender/geo-node/曲线/操作/曲线-转换为-网格_curve-to-mesh.html" class="internal-link" target="_self" rel="noopener">曲线 转换为 网格_Curve to Mesh</a>节点中的半径操作。它为每个控制点设置半径值，然后内插到控制点之间的每个评估点。
+<br><br>曲线<br>你想要设置半径的曲线。
+复制<br>选中项<br>选择曲线上哪些控制点来设置半径值。
+复制<br>半径<br>设置曲线控制点的半径值。
+复制<br><br>曲线<br>设置完半径后的曲线。
+复制<br><br><img alt="Pasted image 20241002124231.png" src="https://blendercz.top/lib/media/pasted-image-20241002124231.png"><br>
+<img alt="Pasted image 20241002124239.png" src="https://blendercz.top/lib/media/pasted-image-20241002124239.png"><br>
+<a data-tooltip-position="top" aria-label="EX_设置曲线半径.canvas" data-href="EX_设置曲线半径.canvas" href="https://blendercz.top/blender/示例文件/ex_设置曲线半径.html" class="internal-link" target="_self" rel="noopener">EX_设置曲线半径</a>]]></description><link>https://blendercz.top/blender/geo-node/曲线/写入/设置曲线半径_set-curve-radius.html</link><guid isPermaLink="false">Blender/Geo Node/曲线/写入/设置曲线半径_Set Curve Radius.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Wed, 02 Oct 2024 04:42:45 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/img-20241002122625264.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/img-20241002122625264.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
  <br><br><img alt="IMG-20240828110659681.png" src="https://blendercz.top/lib/media/img-20240828110659681.png" style="width: 200px; max-width: 100%;"><br>目的
 设置曲线法向节点可以改变曲线法向的计算方式。
 <br><br>曲线<br>你需要更改法向的曲线。
@@ -559,8 +621,15 @@ Nurbs和卡特姆-罗：使曲线更平滑，无需使用控制点。
 复制<br>局部空间<br>是否在每个实例的局部空间或做为整体移动。
 复制<br><br>实例<br>改变位置后的实例
 复制<br><br><img alt="Pasted image 20240901214616.png" src="https://blendercz.top/lib/media/pasted-image-20240901214616.png"><br>
-<a data-tooltip-position="top" aria-label="EX_平移实例.canvas" data-href="EX_平移实例.canvas" href="https://blendercz.top/blender/示例文件/ex_平移实例.html" class="internal-link" target="_self" rel="noopener">EX_平移实例</a>]]></description><link>https://blendercz.top/blender/geo-node/实例/平移实例_translate-instances.html</link><guid isPermaLink="false">Blender/Geo Node/实例/平移实例_Translate Instances.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Sun, 22 Sep 2024 02:26:27 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20240901213401.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20240901213401.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[设置实例变换]]></title><description><![CDATA[ 
- ]]></description><link>https://blendercz.top/blender/geo-node/实例/设置实例变换.html</link><guid isPermaLink="false">Blender/Geo Node/实例/设置实例变换.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Wed, 28 Aug 2024 13:26:01 GMT</pubDate></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
+<a data-tooltip-position="top" aria-label="EX_平移实例.canvas" data-href="EX_平移实例.canvas" href="https://blendercz.top/blender/示例文件/ex_平移实例.html" class="internal-link" target="_self" rel="noopener">EX_平移实例</a>]]></description><link>https://blendercz.top/blender/geo-node/实例/平移实例_translate-instances.html</link><guid isPermaLink="false">Blender/Geo Node/实例/平移实例_Translate Instances.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Sun, 22 Sep 2024 02:26:27 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20240901213401.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20240901213401.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
+ <br><br><img alt="IMG-20241003112514512.png" src="https://blendercz.top/lib/media/img-20241003112514512.png" style="width: 200px; max-width: 100%;"><br>目的
+该节点使用变换矩阵来变换几何实例。
+<br><br>实例<br>你要变换的实例对象。
+复制<br>选中项<br>选择你要变换哪些实例。
+复制<br>变换<br>用于平移、旋转和缩放实例的变换矩阵。类似变换几何体。
+复制<br><br>实例<br>变换后的实例。
+复制<br><br><img alt="IMG-20241003112514565.png" src="https://blendercz.top/lib/media/img-20241003112514565.png"><img alt="IMG-20241003112514633.png" src="https://blendercz.top/lib/media/img-20241003112514633.png"><br>
+<a data-tooltip-position="top" aria-label="EX_设置实例变换.canvas" data-href="EX_设置实例变换.canvas" href="https://blendercz.top/blender/示例文件/ex_设置实例变换.html" class="internal-link" target="_self" rel="noopener">EX_设置实例变换</a>]]></description><link>https://blendercz.top/blender/geo-node/实例/设置实例变换_set-instance-transform.html</link><guid isPermaLink="false">Blender/Geo Node/实例/设置实例变换_Set Instance Transform.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Thu, 03 Oct 2024 03:25:14 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/img-20241003112514512.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/img-20241003112514512.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
  <br><br><img alt="Pasted image 20240901221204.png" src="https://blendercz.top/lib/media/pasted-image-20240901221204.png" style="width: 200px; max-width: 100%;"><br>目的
 该节点将实例转换回点。它撤销了<a data-href="实例化于点上_Instance on Points" href="https://blendercz.top/blender/geo-node/实例/实例化于点上_instance-on-points.html" class="internal-link" target="_self" rel="noopener">实例化于点上_Instance on Points</a>的实例。
 <br><br>实例<br>你想要转换为点的实例。
@@ -791,6 +860,34 @@ A-B
 复制<br><br>矢量<br>由输入接口创建的矢量。
 复制<br><br><img alt="Pasted image 20240913223749.png" src="https://blendercz.top/lib/media/pasted-image-20240913223749.png"><br>
 <a data-tooltip-position="top" aria-label="EX_合并、分离 XYZ.canvas" data-href="EX_合并、分离 XYZ.canvas" href="https://blendercz.top/blender/geo-node/实用工具/矢量/矢量运算_vector-math_方式/ex_合并、分离-xyz.html" class="internal-link" target="_self" rel="noopener">EX_合并、分离 XYZ</a>]]></description><link>https://blendercz.top/blender/geo-node/实用工具/矢量/合并xyz_combine-xyz.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/矢量/合并XYZ_Combine XYZ.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Sat, 21 Sep 2024 01:59:35 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20240913222207.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20240913222207.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
+ <br><br><img alt="IMG-20241003184518615.png" src="https://blendercz.top/lib/media/img-20241003184518615.png" style="width: 200px; max-width: 100%;"><br>目的
+该节点根据0-1的系数来混合A和B的两个矢量。一般用于两个矢量之间的变换，
+<br><br>系数<br>该值确定混合多少A的矢量和多少B的矢量。系数0表示100%A的矢量和0%B的矢量，系数1表示100%B的矢量和0%A的矢量。
+复制<br>A<br>与B值混合的矢量。
+复制<br>B<br>与A值混合的矢量。
+复制<br><br>结果<br>混合A和B的矢量输出的结果。
+复制<br><br>域类型<br>是否切换到"浮点"、"颜色"或"旋转"。
+复制<br>系数模式<br>均衡：矢量的三个轴都统一一起混合。
+非均匀：矢量三个轴单独由各自的轴“系数”控制混合程度。
+复制<br>钳制系数<br>是否将系数保持在0到1之间。
+复制<br><br><img alt="IMG-20241003184518665.png" src="https://blendercz.top/lib/media/img-20241003184518665.png"><br>
+<img alt="IMG-20241003184518745.png" src="https://blendercz.top/lib/media/img-20241003184518745.png"><br>
+<a data-tooltip-position="top" aria-label="EX_混合矢量.canvas" data-href="EX_混合矢量.canvas" href="https://blendercz.top/blender/示例文件/ex_混合矢量.html" class="internal-link" target="_self" rel="noopener">EX_混合矢量</a>]]></description><link>https://blendercz.top/blender/geo-node/实用工具/矢量/混合矢量_mix.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/矢量/混合矢量_Mix.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Thu, 03 Oct 2024 10:46:15 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/img-20241003184518615.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/img-20241003184518615.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
+ <br><br><img alt="IMG-20241003202313511.png" src="https://blendercz.top/lib/media/img-20241003202313511.png" style="width: 200px; max-width: 100%;"><br>目的
+该节点将输入矢量每个轴单独映射到曲线。使用这个曲线来控制分别矢量每个轴的变换。
+<br><br>系数<br>系数决定了节点对导入值的影响有多大。
+复制<br>矢量<br>你想要使用曲线操作的矢量。
+复制<br><br>矢量<br>通过矢量曲线更改后的矢量。
+复制<br><br>通道<br>切换X\Y\Z控制矢量的单轴曲线。
+复制]]></description><link>https://blendercz.top/blender/geo-node/实用工具/矢量/矢量曲线_冲突文件_administrator_20241003194914.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/矢量/矢量曲线_冲突文件_Administrator_20241003194914.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Thu, 03 Oct 2024 12:23:13 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/img-20241003202313511.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/img-20241003202313511.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
+ <br><br><img alt="IMG-20241003202313511.png" src="https://blendercz.top/lib/media/img-20241003202313511.png" style="width: 200px; max-width: 100%;"><br>目的
+该节点将输入矢量每个轴单独映射到曲线。使用这个曲线来控制矢量列表。
+<br><br>系数<br>系数决定了节点对导入值的影响有多大。
+复制<br>矢量<br>你想要使用曲线操作的矢量列表。
+复制<br><br>矢量<br>通过矢量曲线更改后的矢量列表。
+复制<br><br>通道<br>切换X\Y\Z控制矢量的单轴曲线。
+复制<br><br><img alt="IMG-20241003202313590.png" src="https://blendercz.top/lib/media/img-20241003202313590.png"><img alt="IMG-20241003202313672.png" src="https://blendercz.top/lib/media/img-20241003202313672.png"><br>
+<a data-tooltip-position="top" aria-label="EX_矢量曲线.canvas" data-href="EX_矢量曲线.canvas" href="https://blendercz.top/blender/示例文件/ex_矢量曲线.html" class="internal-link" target="_self" rel="noopener">EX_矢量曲线</a>]]></description><link>https://blendercz.top/blender/geo-node/实用工具/矢量/矢量曲线_vector-curves.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/矢量/矢量曲线_Vector Curves.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Thu, 03 Oct 2024 12:23:13 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/img-20241003202313511.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/img-20241003202313511.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
  <br><br><img alt="IMG-20240913220156003.png" src="https://blendercz.top/lib/media/img-20240913220156003.png" style="width: 200px; max-width: 100%;"><br>目的
 该节点绕特定轴旋转任何矢量。
 <br><br>反转<br>反转旋转角度。
@@ -879,14 +976,40 @@ Z轴：使用Z轴旋转单点。
 <br><br>字符串<br>你想要获取其长度的文本。
 复制<br>长度<br>文本的长度，以字符数表示。
 复制<br><br><img alt="Pasted image 20240928133236.png" src="https://blendercz.top/lib/media/pasted-image-20240928133236.png"><br>
-<a data-tooltip-position="top" aria-label="EX_字符串长度.canvas" data-href="EX_字符串长度.canvas" href="https://blendercz.top/blender/示例文件/ex_字符串长度.html" class="internal-link" target="_self" rel="noopener">EX_字符串长度</a>]]></description><link>https://blendercz.top/blender/geo-node/实用工具/文本/字符串长度_string-length.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/文本/字符串长度_String Length.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Sat, 28 Sep 2024 05:32:41 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20240928130715.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20240928130715.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[对齐旋转至矢量]]></title><description><![CDATA[ 
- ]]></description><link>https://blendercz.top/blender/geo-node/实用工具/旋转/对齐旋转至矢量.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/旋转/对齐旋转至矢量.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Wed, 28 Aug 2024 13:26:01 GMT</pubDate></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
+<a data-tooltip-position="top" aria-label="EX_字符串长度.canvas" data-href="EX_字符串长度.canvas" href="https://blendercz.top/blender/示例文件/ex_字符串长度.html" class="internal-link" target="_self" rel="noopener">EX_字符串长度</a>]]></description><link>https://blendercz.top/blender/geo-node/实用工具/文本/字符串长度_string-length.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/文本/字符串长度_String Length.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Sat, 28 Sep 2024 05:32:41 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20240928130715.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20240928130715.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
+ <br><br><img alt="IMG-20241003142603474.png" src="https://blendercz.top/lib/media/img-20241003142603474.png" style="width: 200px; max-width: 100%;"><br>目的
+该节点跟<a data-href="对齐欧拉至矢量_Align Euler to Vector" href="https://blendercz.top/blender/geo-node/实用工具/已弃用/对齐欧拉至矢量_align-euler-to-vector.html" class="internal-link" target="_self" rel="noopener">对齐欧拉至矢量_Align Euler to Vector</a>用法一致。该节点旋转任何常规旋转使其指向某个方向。这与<a data-href="实例化于点上_Instance on Points" href="https://blendercz.top/blender/geo-node/实例/实例化于点上_instance-on-points.html" class="internal-link" target="_self" rel="noopener">实例化于点上_Instance on Points</a>节点结合起来非常有用。
+<br><br>旋转<br>你想要更改的常规旋转，使其指向某个方向。
+复制<br>系数<br>该节点对常规旋转的影响有多大。
+复制<br>矢量<br>常规旋转应指向的方向。
+复制<br><br>旋转<br>由该节点产生的常规旋转。
+复制<br><br>最顶上：X|Y|Z<br>X:将X轴与节点下面输入的矢量对齐。
+Y:将Y轴与节点下面输入的矢量对齐。
+Z:将Z轴与节点下面输入的矢量对齐。
+复制<br>轴心<br>自动:自动检测朝向矢量旋转的最佳旋转轴。
+X：绕局部X轴旋转
+Y：绕局部Y轴旋转
+Z：绕局部Z轴旋转
+复制<br><br>因为使用方式跟<a data-href="对齐欧拉至矢量_Align Euler to Vector" href="https://blendercz.top/blender/geo-node/实用工具/已弃用/对齐欧拉至矢量_align-euler-to-vector.html" class="internal-link" target="_self" rel="noopener">对齐欧拉至矢量_Align Euler to Vector</a>一致，所以示例延用<a data-href="对齐欧拉至矢量_Align Euler to Vector" href="https://blendercz.top/blender/geo-node/实用工具/已弃用/对齐欧拉至矢量_align-euler-to-vector.html" class="internal-link" target="_self" rel="noopener">对齐欧拉至矢量_Align Euler to Vector</a>的了，只要把<a data-href="对齐欧拉至矢量_Align Euler to Vector" href="https://blendercz.top/blender/geo-node/实用工具/已弃用/对齐欧拉至矢量_align-euler-to-vector.html" class="internal-link" target="_self" rel="noopener">对齐欧拉至矢量_Align Euler to Vector</a>改为<a data-href="对齐旋转至矢量_Align Rotation to Vector" href="https://blendercz.top/blender/geo-node/实用工具/旋转/对齐旋转至矢量_align-rotation-to-vector.html" class="internal-link" target="_self" rel="noopener">对齐旋转至矢量_Align Rotation to Vector</a>效果一样。<br>
+<img alt="IMG-20241003142603581.png" src="https://blendercz.top/lib/media/img-20241003142603581.png"><br>
+<img alt="IMG-20241003142603718.png" src="https://blendercz.top/lib/media/img-20241003142603718.png"><br>
+<a data-tooltip-position="top" aria-label="EX_对齐欧拉至矢量.canvas" data-href="EX_对齐欧拉至矢量.canvas" href="https://blendercz.top/blender/示例文件/ex_对齐欧拉至矢量.html" class="internal-link" target="_self" rel="noopener">EX_对齐欧拉至矢量</a>]]></description><link>https://blendercz.top/blender/geo-node/实用工具/旋转/对齐旋转至矢量_align-rotation-to-vector.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/旋转/对齐旋转至矢量_Align Rotation to Vector.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Thu, 03 Oct 2024 06:26:03 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/img-20241003142603474.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/img-20241003142603474.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
  <br><br><img alt="Pasted image 20240919215313.png" src="https://blendercz.top/lib/media/pasted-image-20240919215313.png" style="width: 200px; max-width: 100%;"><br>目的
 该节点反转任何给定的旋转值。
 <br><br>旋转<br>你想要反转的常规旋转。
 复制<br><br>旋转<br>反转后的常规旋转。
 复制<br><br><img alt="Pasted image 20240919215901.png" src="https://blendercz.top/lib/media/pasted-image-20240919215901.png"><br>
 <a data-tooltip-position="top" aria-label="EX_反向旋转.canvas" data-href="EX_反向旋转.canvas" href="https://blendercz.top/blender/示例文件/ex_反向旋转.html" class="internal-link" target="_self" rel="noopener">EX_反向旋转</a>]]></description><link>https://blendercz.top/blender/geo-node/实用工具/旋转/反向旋转_invert-rotation.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/旋转/反向旋转_Invert Rotation.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Thu, 19 Sep 2024 13:59:05 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20240919215313.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20240919215313.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
+ <br><br><img alt="Pasted image 20241001212155.png" src="https://blendercz.top/lib/media/pasted-image-20241001212155.png" style="width: 200px; max-width: 100%;"><br>目的
+节点将一个额外的旋转附加到原旋转上。
+<br><br>旋转<br>原常规旋转。
+复制<br>旋转增量<br>准备在原常规旋转上附加的常规旋转。
+复制<br><br>旋转<br>附加上旋转增量后的原常规旋转。
+复制<br><br>全局<br>旋转增量是在全局空间坐标下的旋转。
+复制<br>局部<br>旋转增量是在原常规旋转后的局部空间坐标下的旋转。
+复制<br><br><img alt="Pasted image 20241001213623.png" src="https://blendercz.top/lib/media/pasted-image-20241001213623.png"><br>
+<img alt="Pasted image 20241001213632.png" src="https://blendercz.top/lib/media/pasted-image-20241001213632.png"><br>
+<a data-tooltip-position="top" aria-label="EX_累加旋转.canvas" data-href="EX_累加旋转.canvas" href="https://blendercz.top/blender/示例文件/ex_累加旋转.html" class="internal-link" target="_self" rel="noopener">EX_累加旋转</a>]]></description><link>https://blendercz.top/blender/geo-node/实用工具/旋转/累加旋转_rotate-rotation.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/旋转/累加旋转_Rotate Rotation.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Tue, 01 Oct 2024 13:36:37 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20241001212155.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20241001212155.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
  <br><br><img alt="IMG-20240918225717725.png" src="https://blendercz.top/lib/media/img-20240918225717725.png" style="width: 200px; max-width: 100%;"><br>目的
 该节点将欧拉旋转转换为旋转值。
 <br><br>欧拉<br>要转换为旋转的欧拉旋转。
@@ -925,8 +1048,16 @@ Z轴：使用Z轴旋转单点。
 <br><br>轴向<br>以几何原点为轴心，然后以哪个轴向为旋转轴。
 复制<br>角度<br>要与轴向接口的值组合的角度（以度为单位）。
 复制<br><br>旋转<br>轴角度旋转转换为常规旋转。
-复制]]></description><link>https://blendercz.top/blender/geo-node/实用工具/旋转/轴角度-转换为-旋转_axis-angle-to-rotation.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/旋转/轴角度 转换为 旋转_Axis Angle to Rotation.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Thu, 19 Sep 2024 13:09:28 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20240919210311.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20240919210311.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[轴向 转换为 旋转]]></title><description><![CDATA[ 
- ]]></description><link>https://blendercz.top/blender/geo-node/实用工具/旋转/轴向-转换为-旋转.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/旋转/轴向 转换为 旋转.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Wed, 28 Aug 2024 13:26:02 GMT</pubDate></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
+复制]]></description><link>https://blendercz.top/blender/geo-node/实用工具/旋转/轴角度-转换为-旋转_axis-angle-to-rotation.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/旋转/轴角度 转换为 旋转_Axis Angle to Rotation.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Thu, 19 Sep 2024 13:09:28 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20240919210311.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20240919210311.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
+ <br><br><img alt="IMG-20241003150744907.png" src="https://blendercz.top/lib/media/img-20241003150744907.png" style="width: 200px; max-width: 100%;"><br>目的
+该节点确定一个物体的主轴和一个副轴，然后再将主轴对齐主轴向，副轴对齐次轴向。依次来生成一个旋转值将物体对齐你想要对齐的方向。理想状态下，两个输入轴是正交的（垂直关系）。
+<br><br>主轴向<br>你想要主轴对齐的主轴向。
+复制<br>次轴向<br>你想要副轴对齐的次轴向。
+复制<br><br>旋转<br>输出物体主轴与副轴对齐主轴向与次轴向所需要的旋转值。
+复制<br><br>上方的X|Y|Z<br>设置对象的主轴为哪个轴向。
+复制<br>下方的X|Y|Z<br>设置对象的副轴为哪个轴向。
+复制<br><br><img alt="IMG-20241003150745009.png" src="https://blendercz.top/lib/media/img-20241003150745009.png"><img alt="IMG-20241003150745094.png" src="https://blendercz.top/lib/media/img-20241003150745094.png"><br>
+<a data-tooltip-position="top" aria-label="EX_轴向转换为旋转.canvas" data-href="EX_轴向转换为旋转.canvas" href="https://blendercz.top/blender/示例文件/ex_轴向转换为旋转.html" class="internal-link" target="_self" rel="noopener">EX_轴向转换为旋转</a>]]></description><link>https://blendercz.top/blender/geo-node/实用工具/旋转/轴向-转换为-旋转_axes-to-rotation.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/旋转/轴向 转换为 旋转_Axes to Rotation.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Thu, 03 Oct 2024 07:07:45 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/img-20241003150744907.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/img-20241003150744907.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
  <br><br><img alt="Pasted image 20240928143703.png" src="https://blendercz.top/lib/media/pasted-image-20240928143703.png" style="width: 200px; max-width: 100%;"><br>目的
 &nbsp;节点根据特定的系数将两种颜色混合在一起。
 <br><br>系数<br>一个0到1的系数，决定应该考虑多少颜色A或颜色B。
@@ -942,7 +1073,7 @@ Z轴：使用Z轴旋转单点。
  <br><br><img alt="Pasted image 20240919215953.png" src="https://blendercz.top/lib/media/pasted-image-20240919215953.png" style="width: 200px; max-width: 100%;"><br>目的
 该节点旋转任何欧拉旋转使其指向某个方向。这与<a data-href="实例化于点上_Instance on Points" href="https://blendercz.top/blender/geo-node/实例/实例化于点上_instance-on-points.html" class="internal-link" target="_self" rel="noopener">实例化于点上_Instance on Points</a>节点结合起来非常有用。
 <br><br>旋转<br>你想要更改的欧拉旋转，使其指向某个方向。
-复制<br>系数<br>该节点对欧拉旋转的印象有多大。
+复制<br>系数<br>该节点对欧拉旋转的影响有多大。
 复制<br>矢量<br>欧拉旋转应指向的方向。
 复制<br><br>旋转<br>由该节点产生的欧拉旋转。
 复制<br><br>最顶上：X|Y|Z<br>X：将X轴与节点下面输入的矢量对齐。
@@ -952,9 +1083,9 @@ Z:将Z轴与节点下面输入的矢量对齐。
 X：绕局部X轴旋转
 Y：绕局部Y轴旋转
 Z：绕局部Z轴旋转
-复制<br><br><img alt="IMG-20240920191758693.png" src="https://blendercz.top/lib/media/img-20240920191758693.png"><br>
-<img alt="IMG-20240920191758821.png" src="https://blendercz.top/lib/media/img-20240920191758821.png"><br>
-<a data-tooltip-position="top" aria-label="EX_对齐欧拉至矢量.canvas" data-href="EX_对齐欧拉至矢量.canvas" href="https://blendercz.top/blender/示例文件/ex_对齐欧拉至矢量.html" class="internal-link" target="_self" rel="noopener">EX_对齐欧拉至矢量</a><br><br><br><a data-href="对齐欧拉至矢量.blend" href="https://blendercz.top/attachment/对齐欧拉至矢量.blend" class="internal-link" target="_self" rel="noopener">对齐欧拉至矢量.blend</a>]]></description><link>https://blendercz.top/blender/geo-node/实用工具/已弃用/对齐欧拉至矢量_align-euler-to-vector.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/已弃用/对齐欧拉至矢量_Align Euler to Vector.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Fri, 20 Sep 2024 11:19:15 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20240919215953.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20240919215953.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
+复制<br><br><img alt="IMG-20241003142603581.png" src="https://blendercz.top/lib/media/img-20241003142603581.png"><br>
+<img alt="IMG-20241003142603718.png" src="https://blendercz.top/lib/media/img-20241003142603718.png"><br>
+<a data-tooltip-position="top" aria-label="EX_对齐欧拉至矢量.canvas" data-href="EX_对齐欧拉至矢量.canvas" href="https://blendercz.top/blender/示例文件/ex_对齐欧拉至矢量.html" class="internal-link" target="_self" rel="noopener">EX_对齐欧拉至矢量</a><br><br><br><a data-href="对齐欧拉至矢量.blend" href="https://blendercz.top/attachment/对齐欧拉至矢量.blend" class="internal-link" target="_self" rel="noopener">对齐欧拉至矢量.blend</a>]]></description><link>https://blendercz.top/blender/geo-node/实用工具/已弃用/对齐欧拉至矢量_align-euler-to-vector.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/已弃用/对齐欧拉至矢量_Align Euler to Vector.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Thu, 03 Oct 2024 06:26:03 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20240919215953.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20240919215953.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
  <br><br><img alt="Pasted image 20240920192028.png" src="https://blendercz.top/lib/media/pasted-image-20240920192028.png" style="width: 200px; max-width: 100%;"><br>目的
 该节点将任何欧拉旋转旋转特定值。这非常适合在<a data-href="对齐欧拉至矢量_Align Euler to Vector" href="https://blendercz.top/blender/geo-node/实用工具/已弃用/对齐欧拉至矢量_align-euler-to-vector.html" class="internal-link" target="_self" rel="noopener">对齐欧拉至矢量_Align Euler to Vector</a>节点之后使用，以便在将实例对齐到某个矢量后旋转实例。
 <br><br>旋转<br>你想要更多旋转的欧拉旋转。
@@ -1005,17 +1136,53 @@ AxB+C
  <br>目的
 A&gt;B则取1，否则取0
 <br><br><img alt="IMG-20240910221911300.png" src="https://blendercz.top/lib/media/img-20240910221911300.png"><br>
-<a data-tooltip-position="top" aria-label="EX_运算.canvas" data-href="EX_运算.canvas" href="https://blendercz.top/blender/示例文件/ex_运算.html" class="internal-link" target="_self" rel="noopener">EX_运算</a>]]></description><link>https://blendercz.top/blender/geo-node/实用工具/运算/运算_math_方式/大于_greater-than.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/运算/运算_Math_方式/大于_Greater Than.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Tue, 10 Sep 2024 14:19:12 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/img-20240910221911300.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/img-20240910221911300.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[到弧度_To Radians]]></title><description><![CDATA[ 
- ]]></description><link>https://blendercz.top/blender/geo-node/实用工具/运算/运算_math_方式/到弧度_to-radians.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/运算/运算_Math_方式/到弧度_To Radians.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Mon, 02 Sep 2024 13:59:44 GMT</pubDate></item><item><title><![CDATA[到角度_To Degrees]]></title><description><![CDATA[ 
- ]]></description><link>https://blendercz.top/blender/geo-node/实用工具/运算/运算_math_方式/到角度_to-degrees.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/运算/运算_Math_方式/到角度_To Degrees.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Mon, 02 Sep 2024 13:59:54 GMT</pubDate></item><item><title><![CDATA[示例]]></title><description><![CDATA[ 
+<a data-tooltip-position="top" aria-label="EX_运算.canvas" data-href="EX_运算.canvas" href="https://blendercz.top/blender/示例文件/ex_运算.html" class="internal-link" target="_self" rel="noopener">EX_运算</a>]]></description><link>https://blendercz.top/blender/geo-node/实用工具/运算/运算_math_方式/大于_greater-than.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/运算/运算_Math_方式/大于_Greater Than.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Tue, 10 Sep 2024 14:19:12 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/img-20240910221911300.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/img-20240910221911300.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[示例]]></title><description><![CDATA[ 
+ <br>目的
+从角度转换为弧度值。
+<br><br><img alt="Pasted image 20241001203455.png" src="https://blendercz.top/lib/media/pasted-image-20241001203455.png">]]></description><link>https://blendercz.top/blender/geo-node/实用工具/运算/运算_math_方式/到弧度_to-radians.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/运算/运算_Math_方式/到弧度_To Radians.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Tue, 01 Oct 2024 12:34:56 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20241001203455.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20241001203455.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[示例]]></title><description><![CDATA[ 
+ <br>目的
+将弧度值转为角度。
+<br><br><img alt="Pasted image 20241001201549.png" src="https://blendercz.top/lib/media/pasted-image-20241001201549.png">]]></description><link>https://blendercz.top/blender/geo-node/实用工具/运算/运算_math_方式/到角度_to-degrees.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/运算/运算_Math_方式/到角度_To Degrees.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Tue, 01 Oct 2024 12:15:51 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20241001201549.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20241001201549.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[示例]]></title><description><![CDATA[ 
  <br>目的
 以B为底取A的对数。
 <br><br><img alt="IMG-20240910221911297.png" src="https://blendercz.top/lib/media/img-20240910221911297.png"><br>
-<a data-tooltip-position="top" aria-label="EX_运算.canvas" data-href="EX_运算.canvas" href="https://blendercz.top/blender/示例文件/ex_运算.html" class="internal-link" target="_self" rel="noopener">EX_运算</a>]]></description><link>https://blendercz.top/blender/geo-node/实用工具/运算/运算_math_方式/对数_logarithm.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/运算/运算_Math_方式/对数_Logarithm.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Tue, 10 Sep 2024 14:19:12 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/img-20240910221911297.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/img-20240910221911297.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[反余弦_Arccosine]]></title><description><![CDATA[ 
- ]]></description><link>https://blendercz.top/blender/geo-node/实用工具/运算/运算_math_方式/反余弦_arccosine.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/运算/运算_Math_方式/反余弦_Arccosine.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Mon, 02 Sep 2024 13:58:20 GMT</pubDate></item><item><title><![CDATA[反正切_Arctangent]]></title><description><![CDATA[ 
- ]]></description><link>https://blendercz.top/blender/geo-node/实用工具/运算/运算_math_方式/反正切_arctangent.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/运算/运算_Math_方式/反正切_Arctangent.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Mon, 02 Sep 2024 13:58:31 GMT</pubDate></item><item><title><![CDATA[反正切2_Arctan2]]></title><description><![CDATA[ 
- ]]></description><link>https://blendercz.top/blender/geo-node/实用工具/运算/运算_math_方式/反正切2_arctan2.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/运算/运算_Math_方式/反正切2_Arctan2.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Mon, 02 Sep 2024 13:58:44 GMT</pubDate></item><item><title><![CDATA[反正弦_Arcsine]]></title><description><![CDATA[ 
- ]]></description><link>https://blendercz.top/blender/geo-node/实用工具/运算/运算_math_方式/反正弦_arcsine.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/运算/运算_Math_方式/反正弦_Arcsine.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Mon, 02 Sep 2024 13:58:08 GMT</pubDate></item><item><title><![CDATA[示例]]></title><description><![CDATA[ 
+<a data-tooltip-position="top" aria-label="EX_运算.canvas" data-href="EX_运算.canvas" href="https://blendercz.top/blender/示例文件/ex_运算.html" class="internal-link" target="_self" rel="noopener">EX_运算</a>]]></description><link>https://blendercz.top/blender/geo-node/实用工具/运算/运算_math_方式/对数_logarithm.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/运算/运算_Math_方式/对数_Logarithm.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Tue, 10 Sep 2024 14:19:12 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/img-20240910221911297.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/img-20240910221911297.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[示例]]></title><description><![CDATA[ 
+ <br>目的
+arccos（A）<br>
+反余弦函数（arccos）是余弦函数（cos）的反函数。对于在区间 [-1,1] 内的一个数 x，反余弦函数 arccos (x) 的值是一个在区间 [0,π] 内的角，使得这个角的余弦值等于 x。<br>
+例如，cos (π/3)=1/2，那么反余弦函数 arccos (1/2)=π/3。<br>
+”一句话就是可以通过值反求角度。“<br>
+（输出的是弧度值）。
+<br><br><img alt="Pasted image 20241001170959.png" src="https://blendercz.top/lib/media/pasted-image-20241001170959.png"><br>
+<img alt="Pasted image 20241001170601.png" src="https://blendercz.top/lib/media/pasted-image-20241001170601.png"><br>
+<a data-tooltip-position="top" aria-label="EX_运算.canvas" data-href="EX_运算.canvas" href="https://blendercz.top/blender/示例文件/ex_运算.html" class="internal-link" target="_self" rel="noopener">EX_运算</a>]]></description><link>https://blendercz.top/blender/geo-node/实用工具/运算/运算_math_方式/反余弦_arccosine.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/运算/运算_Math_方式/反余弦_Arccosine.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Tue, 01 Oct 2024 10:37:45 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20241001170959.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20241001170959.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[示例]]></title><description><![CDATA[ 
+ <br>目的
+arctan（A）<br>
+反正切函数（arctan）是正切函数（tan）的反函数。对于任意实数 x，反正切函数 arctan (x) 的值是一个在区间 (-π/2,π/2) 内的角，使得这个角的正切值等于 x。<br>
+例如，tan (π/4)=1，那么反正切函数 arctan (1)=π/4。<br>
+”一句话就是可以通过值反求角度。“<br>
+（输出的是弧度值）。
+<br><br><img alt="Pasted image 20241001171415.png" src="https://blendercz.top/lib/media/pasted-image-20241001171415.png"><br>
+<img alt="Pasted image 20241001171421.png" src="https://blendercz.top/lib/media/pasted-image-20241001171421.png"><br>
+<a data-tooltip-position="top" aria-label="EX_运算.canvas" data-href="EX_运算.canvas" href="https://blendercz.top/blender/示例文件/ex_运算.html" class="internal-link" target="_self" rel="noopener">EX_运算</a>]]></description><link>https://blendercz.top/blender/geo-node/实用工具/运算/运算_math_方式/反正切_arctangent.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/运算/运算_Math_方式/反正切_Arctangent.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Tue, 01 Oct 2024 10:49:28 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20241001171415.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20241001171415.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[示例]]></title><description><![CDATA[ 
+ <br>目的
+arctan（A/B）<br>
+反正切函数（arctan）是正切函数（tan）的反函数。对于任意实数 x，反正切函数 arctan (x) 的值是一个在区间 (-π/2,π/2) 内的角，使得这个角的正切值等于 x。<br>
+而反正切2等于是值A除以值B的值作为反正切的值。<br>
+例如，A值=3，B值=3，那么反正切2=arctan（3/3）=arctan（1）=π/4。<br>
+”一句话就是可以通过值反求角度。“<br>
+（输出的是弧度值）。
+<br><br><img alt="Pasted image 20241001172853.png" src="https://blendercz.top/lib/media/pasted-image-20241001172853.png"><br>
+<img alt="Pasted image 20241001172859.png" src="https://blendercz.top/lib/media/pasted-image-20241001172859.png"><br>
+<img alt="Pasted image 20241001172901.png" src="https://blendercz.top/lib/media/pasted-image-20241001172901.png"><br>
+<a data-tooltip-position="top" aria-label="EX_运算.canvas" data-href="EX_运算.canvas" href="https://blendercz.top/blender/示例文件/ex_运算.html" class="internal-link" target="_self" rel="noopener">EX_运算</a>]]></description><link>https://blendercz.top/blender/geo-node/实用工具/运算/运算_math_方式/反正切2_arctan2.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/运算/运算_Math_方式/反正切2_Arctan2.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Tue, 01 Oct 2024 10:37:32 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20241001172853.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20241001172853.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[示例]]></title><description><![CDATA[ 
+ <br>目的
+arcsin（A）,反正弦函数（arcsin）是正弦函数（sin）的反函数。对于在区间 [-1,1] 内的一个数 x，反正弦函数 arcsin (x) 的值是一个在区间 [-π/2,π/2] 内的角，使得这个角的正弦值等于 x。<br>
+例如，sin (π/6)=1/2，那么反正弦函数 arcsin (1/2)=π/6。<br>
+”一句话就是可以通过值反求角度。“<br>
+（输出的是弧度值）。
+<br><br><img alt="Pasted image 20241001165849.png" src="https://blendercz.top/lib/media/pasted-image-20241001165849.png"><img alt="Pasted image 20241001170035.png" src="https://blendercz.top/lib/media/pasted-image-20241001170035.png"><br>
+<a data-tooltip-position="top" aria-label="EX_运算.canvas" data-href="EX_运算.canvas" href="https://blendercz.top/blender/示例文件/ex_运算.html" class="internal-link" target="_self" rel="noopener">EX_运算</a>]]></description><link>https://blendercz.top/blender/geo-node/实用工具/运算/运算_math_方式/反正弦_arcsine.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/运算/运算_Math_方式/反正弦_Arcsine.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Tue, 01 Oct 2024 10:37:56 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20241001165849.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20241001165849.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[示例]]></title><description><![CDATA[ 
  <br>目的
 A的分数部分。
 <br><br><img alt="IMG-20240910221911281.png" src="https://blendercz.top/lib/media/img-20240910221911281.png"><br>
@@ -1069,10 +1236,22 @@ A的平方根的倒数
 <img alt="IMG-20240910221911507.png" src="https://blendercz.top/lib/media/img-20240910221911507.png"><br>
 <img alt="IMG-20240910221914725.png" src="https://blendercz.top/lib/media/img-20240910221914725.png"><br>
 <img alt="IMG-20240910221915657.png" src="https://blendercz.top/lib/media/img-20240910221915657.png"><br>
-<a data-tooltip-position="top" aria-label="EX_运算.canvas" data-href="EX_运算.canvas" href="https://blendercz.top/blender/示例文件/ex_运算.html" class="internal-link" target="_self" rel="noopener">EX_运算</a>]]></description><link>https://blendercz.top/blender/geo-node/实用工具/运算/运算_math_方式/平滑最小值_smooth-minimum.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/运算/运算_Math_方式/平滑最小值_Smooth Minimum.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Tue, 10 Sep 2024 14:19:16 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/img-20240910221911318.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/img-20240910221911318.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[双曲余弦_Hyperbolic Cosine]]></title><description><![CDATA[ 
- ]]></description><link>https://blendercz.top/blender/geo-node/实用工具/运算/运算_math_方式/双曲余弦_hyperbolic-cosine.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/运算/运算_Math_方式/双曲余弦_Hyperbolic Cosine.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Mon, 02 Sep 2024 13:59:15 GMT</pubDate></item><item><title><![CDATA[双曲正切_Hyperbolic Tangent]]></title><description><![CDATA[ 
- ]]></description><link>https://blendercz.top/blender/geo-node/实用工具/运算/运算_math_方式/双曲正切_hyperbolic-tangent.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/运算/运算_Math_方式/双曲正切_Hyperbolic Tangent.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Mon, 02 Sep 2024 13:59:31 GMT</pubDate></item><item><title><![CDATA[双曲正弦_Hyperbolic Sine]]></title><description><![CDATA[ 
- ]]></description><link>https://blendercz.top/blender/geo-node/实用工具/运算/运算_math_方式/双曲正弦_hyperbolic-sine.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/运算/运算_Math_方式/双曲正弦_Hyperbolic Sine.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Mon, 02 Sep 2024 13:58:58 GMT</pubDate></item><item><title><![CDATA[示例]]></title><description><![CDATA[ 
+<a data-tooltip-position="top" aria-label="EX_运算.canvas" data-href="EX_运算.canvas" href="https://blendercz.top/blender/示例文件/ex_运算.html" class="internal-link" target="_self" rel="noopener">EX_运算</a>]]></description><link>https://blendercz.top/blender/geo-node/实用工具/运算/运算_math_方式/平滑最小值_smooth-minimum.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/运算/运算_Math_方式/平滑最小值_Smooth Minimum.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Tue, 10 Sep 2024 14:19:16 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/img-20240910221911318.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/img-20240910221911318.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[示例]]></title><description><![CDATA[ 
+ <br>目的
+cosh（A），可以模拟做一些类似重力场中自然下垂的绳索的效果。
+<br><br><img alt="Pasted image 20241001185029.png" src="https://blendercz.top/lib/media/pasted-image-20241001185029.png"><br>
+<img alt="Pasted image 20241001200646.png" src="https://blendercz.top/lib/media/pasted-image-20241001200646.png"><br>
+<img alt="Pasted image 20241001194506.png" src="https://blendercz.top/lib/media/pasted-image-20241001194506.png">]]></description><link>https://blendercz.top/blender/geo-node/实用工具/运算/运算_math_方式/双曲余弦_hyperbolic-cosine.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/运算/运算_Math_方式/双曲余弦_Hyperbolic Cosine.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Tue, 01 Oct 2024 12:06:48 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20241001185029.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20241001185029.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[示例]]></title><description><![CDATA[ 
+ <br>目的
+tanh（A）
+<br><br><img alt="Pasted image 20241001185029.png" src="https://blendercz.top/lib/media/pasted-image-20241001185029.png"><br>
+<img alt="Pasted image 20241001200826.png" src="https://blendercz.top/lib/media/pasted-image-20241001200826.png"><br>
+<img alt="Pasted image 20241001194450.png" src="https://blendercz.top/lib/media/pasted-image-20241001194450.png">]]></description><link>https://blendercz.top/blender/geo-node/实用工具/运算/运算_math_方式/双曲正切_hyperbolic-tangent.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/运算/运算_Math_方式/双曲正切_Hyperbolic Tangent.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Tue, 01 Oct 2024 12:08:28 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20241001185029.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20241001185029.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[示例]]></title><description><![CDATA[ 
+ <br>目的
+sinh（A）
+<br><br><img alt="Pasted image 20241001185029.png" src="https://blendercz.top/lib/media/pasted-image-20241001185029.png"><br>
+<img alt="Pasted image 20241001195902.png" src="https://blendercz.top/lib/media/pasted-image-20241001195902.png"><br>
+<img alt="Pasted image 20241001194521.png" src="https://blendercz.top/lib/media/pasted-image-20241001194521.png">]]></description><link>https://blendercz.top/blender/geo-node/实用工具/运算/运算_math_方式/双曲正弦_hyperbolic-sine.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/运算/运算_Math_方式/双曲正弦_Hyperbolic Sine.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Tue, 01 Oct 2024 12:05:22 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20241001185029.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20241001185029.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[示例]]></title><description><![CDATA[ 
  <br>目的
 将 A四舍五入到最近的整数。如果分数部分为0.5，则向上取整。
 <br><br><img alt="IMG-20240910221911292.png" src="https://blendercz.top/lib/media/img-20240910221911292.png"><br>
@@ -1126,10 +1305,25 @@ A&lt;B则取1，否则取0
 <img alt="IMG-20240910221914581.png" src="https://blendercz.top/lib/media/img-20240910221914581.png"><br>
 <img alt="IMG-20240910221915457.png" src="https://blendercz.top/lib/media/img-20240910221915457.png"><br>
 <img alt="IMG-20240910221916287.png" src="https://blendercz.top/lib/media/img-20240910221916287.png"><br>
-<a data-tooltip-position="top" aria-label="EX_运算.canvas" data-href="EX_运算.canvas" href="https://blendercz.top/blender/示例文件/ex_运算.html" class="internal-link" target="_self" rel="noopener">EX_运算</a>]]></description><link>https://blendercz.top/blender/geo-node/实用工具/运算/运算_math_方式/循环_wrap.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/运算/运算_Math_方式/循环_Wrap.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Tue, 10 Sep 2024 14:19:16 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/img-20240910221911314.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/img-20240910221911314.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[余弦_Cosine]]></title><description><![CDATA[ 
- ]]></description><link>https://blendercz.top/blender/geo-node/实用工具/运算/运算_math_方式/余弦_cosine.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/运算/运算_Math_方式/余弦_Cosine.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Mon, 02 Sep 2024 13:57:43 GMT</pubDate></item><item><title><![CDATA[正切_Tangent]]></title><description><![CDATA[ 
- ]]></description><link>https://blendercz.top/blender/geo-node/实用工具/运算/运算_math_方式/正切_tangent.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/运算/运算_Math_方式/正切_Tangent.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Mon, 02 Sep 2024 13:57:50 GMT</pubDate></item><item><title><![CDATA[正弦_Sine]]></title><description><![CDATA[ 
- ]]></description><link>https://blendercz.top/blender/geo-node/实用工具/运算/运算_math_方式/正弦_sine.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/运算/运算_Math_方式/正弦_Sine.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Mon, 02 Sep 2024 13:57:09 GMT</pubDate></item><item><title><![CDATA[示例]]></title><description><![CDATA[ 
+<a data-tooltip-position="top" aria-label="EX_运算.canvas" data-href="EX_运算.canvas" href="https://blendercz.top/blender/示例文件/ex_运算.html" class="internal-link" target="_self" rel="noopener">EX_运算</a>]]></description><link>https://blendercz.top/blender/geo-node/实用工具/运算/运算_math_方式/循环_wrap.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/运算/运算_Math_方式/循环_Wrap.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Tue, 10 Sep 2024 14:19:16 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/img-20240910221911314.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/img-20240910221911314.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[示例]]></title><description><![CDATA[ 
+ <br>目的
+cos（A），输入的值为弧度值，不是角度值。（输入pi的话就是π，相当于是180°）。
+<br><br><img alt="Pasted image 20241001184949.png" src="https://blendercz.top/lib/media/pasted-image-20241001184949.png"><br>
+<img alt="Pasted image 20241001164137.png" src="https://blendercz.top/lib/media/pasted-image-20241001164137.png"><br>
+<img alt="Pasted image 20241001164141.png" src="https://blendercz.top/lib/media/pasted-image-20241001164141.png"><br>
+<a data-tooltip-position="top" aria-label="EX_运算.canvas" data-href="EX_运算.canvas" href="https://blendercz.top/blender/示例文件/ex_运算.html" class="internal-link" target="_self" rel="noopener">EX_运算</a>]]></description><link>https://blendercz.top/blender/geo-node/实用工具/运算/运算_math_方式/余弦_cosine.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/运算/运算_Math_方式/余弦_Cosine.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Tue, 01 Oct 2024 10:49:50 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20241001184949.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20241001184949.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[示例]]></title><description><![CDATA[ 
+ <br>目的
+tan（A），输入的值为弧度值，不是角度值。（输入pi的话就是π，相当于是180°）。
+<br><br><img alt="Pasted image 20241001184957.png" src="https://blendercz.top/lib/media/pasted-image-20241001184957.png"><br>
+<img alt="Pasted image 20241001164357.png" src="https://blendercz.top/lib/media/pasted-image-20241001164357.png"><br>
+<img alt="Pasted image 20241001164230.png" src="https://blendercz.top/lib/media/pasted-image-20241001164230.png"><br>
+<a data-tooltip-position="top" aria-label="EX_运算.canvas" data-href="EX_运算.canvas" href="https://blendercz.top/blender/示例文件/ex_运算.html" class="internal-link" target="_self" rel="noopener">EX_运算</a>]]></description><link>https://blendercz.top/blender/geo-node/实用工具/运算/运算_math_方式/正切_tangent.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/运算/运算_Math_方式/正切_Tangent.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Tue, 01 Oct 2024 10:49:59 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20241001184957.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20241001184957.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[示例]]></title><description><![CDATA[ 
+ <br>目的
+sin（A），输入的值是弧度值。（输入pi的话就是π，相当于是180°）。
+<br><br><img alt="Pasted image 20241001184940.png" src="https://blendercz.top/lib/media/pasted-image-20241001184940.png"><br>
+<img alt="IMG-20241001163957446.png" src="https://blendercz.top/lib/media/img-20241001163957446.png"><br>
+<img alt="Pasted image 20241001164008.png" src="https://blendercz.top/lib/media/pasted-image-20241001164008.png"><br>
+<a data-tooltip-position="top" aria-label="EX_运算.canvas" data-href="EX_运算.canvas" href="https://blendercz.top/blender/示例文件/ex_运算.html" class="internal-link" target="_self" rel="noopener">EX_运算</a>]]></description><link>https://blendercz.top/blender/geo-node/实用工具/运算/运算_math_方式/正弦_sine.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/运算/运算_Math_方式/正弦_Sine.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Tue, 01 Oct 2024 10:49:42 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20241001184940.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20241001184940.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[示例]]></title><description><![CDATA[ 
  <br>目的
 e^A
 <br><br><img alt="IMG-20240910221911321.png" src="https://blendercz.top/lib/media/img-20240910221911321.png"><br>
@@ -1197,14 +1391,14 @@ A与B中的较小值。
 蕴含：除非A为真（1）、B为假（0）,不然都返回真（1）。<br>
 相减：(跟蕴含相反)当A为真（1）、B为假（0）时，则返回真（1）。 ]]></description><link>https://blendercz.top/blender/geo-node/实用工具/运算/布尔运算_boolean-math.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/运算/布尔运算_Boolean Math.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Wed, 18 Sep 2024 12:37:53 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20240910213956.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20240910213956.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
  <br><br><img alt="Pasted image 20240910215545.png" src="https://blendercz.top/lib/media/pasted-image-20240910215545.png" style="width: 200px; max-width: 100%;"><br>目的
-使用该节点，你可以使用曲线操作0到1范围之间的值列表。
+使用该节点，你可以使用曲线操作0到1范围之间的值列表。当然如果你想要范围更大点也可以，右上角那个点，点击可以设置钳制范围。
 <br><br>
-<br><a data-href="矢量曲线" href="https://blendercz.top/blender/geo-node/实用工具/矢量/矢量曲线.html" class="internal-link" target="_self" rel="noopener">矢量曲线</a>节点的工作方式与此曲线相同，但每个轴都有一条曲线。
+<br><a data-href="矢量曲线_Vector Curves" href="https://blendercz.top/blender/geo-node/实用工具/矢量/矢量曲线_vector-curves.html" class="internal-link" target="_self" rel="noopener">矢量曲线_Vector Curves</a>节点的工作方式与此曲线相同，但每个轴都有一条曲线。
 <br>你可以把这个节点看做成一个xy的函数，输入的值列表相当于x轴，输出的值列表就相当于每个值（x）列表对应在曲线上所在的值（y）列表。
 <br><br>系数<br>系数决定了节点对导入值的影响有多大。
 复制<br>值<br>你想要使用曲线操作的值列表。
 复制<br><br>值<br>通过浮点曲线更改后的值列表。
-复制<br><br><img alt="Pasted image 20240910221009.png" src="https://blendercz.top/lib/media/pasted-image-20240910221009.png"><br><br><br><a data-href="浮点曲线.blend" href="https://blendercz.top/attachment/浮点曲线.blend" class="internal-link" target="_self" rel="noopener">浮点曲线.blend</a>]]></description><link>https://blendercz.top/blender/geo-node/实用工具/运算/浮点曲线_float-curve.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/运算/浮点曲线_Float Curve.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Tue, 10 Sep 2024 14:10:51 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20240910215545.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20240910215545.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
+复制<br><br><img alt="Pasted image 20240910221009.png" src="https://blendercz.top/lib/media/pasted-image-20240910221009.png"><br><br><br><a data-href="浮点曲线.blend" href="https://blendercz.top/attachment/浮点曲线.blend" class="internal-link" target="_self" rel="noopener">浮点曲线.blend</a>]]></description><link>https://blendercz.top/blender/geo-node/实用工具/运算/浮点曲线_float-curve.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/运算/浮点曲线_Float Curve.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Thu, 03 Oct 2024 12:23:13 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20240910215545.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20240910215545.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
  <br><br><img alt="IMG-20240909220518602.png" src="https://blendercz.top/lib/media/img-20240909220518602.png" style="width: 200px; max-width: 100%;"><br>目的
 该节点使用四种不同的舍入舍入将浮点数转为整数。
 <br><br>浮点<br>任何要转换为整数的浮点值。
@@ -1221,7 +1415,19 @@ A与B中的较小值。
 复制<br>A<br>与B值混合的值。
 复制<br>B<br>与A值混合的值。
 复制<br><br>结果<br>混合A和B的值输出的结果。
-复制]]></description><link>https://blendercz.top/blender/geo-node/实用工具/运算/混合_mix.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/运算/混合_Mix.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Tue, 10 Sep 2024 13:11:36 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20240910210741.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20240910210741.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
+复制<br><br>域类型<br>是否切换到"颜色"、"矢量"或"旋转"。
+复制<br>钳制系数<br>是否将系数保持在0到1之间。
+复制]]></description><link>https://blendercz.top/blender/geo-node/实用工具/运算/混合_mix.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/运算/混合_Mix.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Thu, 03 Oct 2024 10:32:18 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20240910210741.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20240910210741.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
+ <br><br><img alt="IMG-20241003154933990.png" src="https://blendercz.top/lib/media/img-20241003154933990.png" style="width: 200px; max-width: 100%;"><br>目的
+该节点用于将数值钳制在最小值和最大值之间的范围内。
+<br><br>值<br>要钳制的值。
+复制<br>最小值<br>你要钳制到的最小值。
+复制<br>最大值<br>你要钳制到的最大值。
+复制<br><br>钳制后的值。
+复制<br><br>最小/最大<br>最大值与最小值之间的差异。（如果最大值设置的比最小值小，那么输出的值只会是最大值。）
+复制<br>范围<br>限制在最小值和最大值之间的值。当最小值大于最大值时，则在最大值和最小值之间进行约束。总而言之就是只看设置的范围值大小，并限制在大小内。
+复制<br><br><img alt="IMG-20241003154934039.png" src="https://blendercz.top/lib/media/img-20241003154934039.png"><img alt="IMG-20241003154934120.png" src="https://blendercz.top/lib/media/img-20241003154934120.png"><br>
+<a data-tooltip-position="top" aria-label="EX_钳制.canvas" data-href="EX_钳制.canvas" href="https://blendercz.top/blender/示例文件/ex_钳制.html" class="internal-link" target="_self" rel="noopener">EX_钳制</a>]]></description><link>https://blendercz.top/blender/geo-node/实用工具/运算/钳制_clamp.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/运算/钳制_Clamp.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Thu, 03 Oct 2024 07:49:34 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/img-20241003154933990.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/img-20241003154933990.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
  <br><br><img alt="Pasted image 20240909220603.png" src="https://blendercz.top/lib/media/pasted-image-20240909220603.png" style="width: 200px; max-width: 100%;"><br>目的
 该节点将任何值列表的范围转换为新的值范围。
 <br><br>值<br>要更改范围的值列表。
@@ -1237,7 +1443,28 @@ A与B中的较小值。
 复制<br>值 1<br>你想要与其他值进行运算的浮点值。
 复制<br>值 2<br>你想要与其他值进行运算的浮点值。
 复制<br><br>值<br>通过输入的值进行对应的数学运算后的结果。
-复制<br><br><a data-tooltip-position="top" aria-label="EX_运算.canvas" data-href="EX_运算.canvas" href="https://blendercz.top/blender/示例文件/ex_运算.html" class="internal-link" target="_self" rel="noopener">EX_运算</a>]]></description><link>https://blendercz.top/blender/geo-node/实用工具/运算/运算_math.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/运算/运算_Math.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Wed, 04 Sep 2024 02:29:09 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20240902210756.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20240902210756.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
+复制<br><br> EX_运算<br>
+<a data-tooltip-position="top" aria-label="EX_运算.canvas" data-href="EX_运算.canvas" href="https://blendercz.top/blender/示例文件/ex_运算.html" class="internal-link" target="_self" rel="noopener">EX_运算</a>]]></description><link>https://blendercz.top/blender/geo-node/实用工具/运算/运算_math.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/运算/运算_Math.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Tue, 01 Oct 2024 07:42:33 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20240902210756.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20240902210756.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
+ <br><br><img alt="IMG-20241003160746575.png" src="https://blendercz.top/lib/media/img-20241003160746575.png" style="width: 200px; max-width: 100%;"><br>目的
+该节点根据一个编号值输出它的一个输入。只有通过该节点的输入才会被计算。
+<br><br>编号<br>确定下方输入的接口，对应的哪一个输入数据被输出
+复制<br>0<br>数据的传输接口0。
+复制<br>1<br>数据的传输接口1。
+复制<br>灰色接口<br>可以继续添加多个数据接入的接口。
+复制<br><br>输出与编号值对应的输入接口中的数据。
+复制<br><br>数据类型<br>可以是任意的数据类型
+复制<br><img alt="IMG-20241003160746611.png" src="https://blendercz.top/lib/media/img-20241003160746611.png"><br><br><img alt="IMG-20241003160746679.png" src="https://blendercz.top/lib/media/img-20241003160746679.png"><br>
+<a data-tooltip-position="top" aria-label="EX_编号切换.canvas" data-href="EX_编号切换.canvas" href="https://blendercz.top/blender/示例文件/ex_编号切换.html" class="internal-link" target="_self" rel="noopener">EX_编号切换</a>]]></description><link>https://blendercz.top/blender/geo-node/实用工具/编号切换_index-switch.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/编号切换_Index Switch.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Thu, 03 Oct 2024 08:07:46 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/img-20241003160746575.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/img-20241003160746575.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
+ <br><br><img alt="Pasted image 20241003160924.png" src="https://blendercz.top/lib/media/pasted-image-20241003160924.png" style="width: 200px; max-width: 100%;"><br>目的
+该节点根据菜单旋转输出它的一个输入。菜单的名称可以自己定义，可以按N在右侧编辑栏中选择节点&gt;属性&gt;菜单项目，更改菜单名输入端会同步匹配菜单名。或者直接在下方输入接口按住ctrl+鼠标左键即可自定义名称。
+<br><br>菜单<br>可以选择哪个输入数据从节点输出。
+复制<br>A<br>数据的传输接口A。
+复制<br>B<br>数据的传输接口B
+复制<br>灰色接口<br>可以继续添加多个数据接入的接口。
+复制<br><br>输出<br>根据菜单来选择输出哪个输入端的输入的数据。
+复制<br><br>数据类型<br>可以是任意的数据类型。
+复制<br><img alt="Pasted image 20241003174315.png" src="https://blendercz.top/lib/media/pasted-image-20241003174315.png"><br><br><img alt="Pasted image 20241003175536.png" src="https://blendercz.top/lib/media/pasted-image-20241003175536.png"><br>
+<a data-tooltip-position="top" aria-label="EX_菜单切换.canvas" data-href="EX_菜单切换.canvas" href="https://blendercz.top/blender/示例文件/ex_菜单切换.html" class="internal-link" target="_self" rel="noopener">EX_菜单切换</a>]]></description><link>https://blendercz.top/blender/geo-node/实用工具/菜单切换_menu-switch.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/菜单切换_Menu Switch.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Thu, 03 Oct 2024 09:55:41 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20241003160924.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20241003160924.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
  <br><br><img alt="IMG-20240921221359612.png" src="https://blendercz.top/lib/media/img-20240921221359612.png" style="width: 200px; max-width: 100%;"><br>目的
 该节点根据布尔值的真（1）或假（0）来选择输出哪个。
 <br><br>切换<br>通过布尔值决定节点的输出。
@@ -1273,10 +1500,12 @@ A与B中的较小值。
 <a data-href="重复区_Repeat Zone" href="https://blendercz.top/blender/geo-node/实用工具/重复区_repeat-zone.html" class="internal-link" target="_self" rel="noopener">重复区_Repeat Zone</a>]]></description><link>https://blendercz.top/blender/geo-node/实用工具/重复区_repeat-zone.html</link><guid isPermaLink="false">Blender/Geo Node/实用工具/重复区_Repeat Zone.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Sun, 22 Sep 2024 23:52:17 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20240923074057.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20240923074057.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
  <br><br><img alt="IMG-20240828110658785.png" src="https://blendercz.top/lib/media/img-20240828110658785.png" style="width: 200px; max-width: 100%;"><br>目的
 使用预览器节点，你可以投影任何属性值投射到几何体上。这对观察属性在可视化几何体上的表现非常重要。(你可以使用ctrl+shift+鼠标左键单机任何节点和属性来快速调用预览器。)
+<br><br>
+<br>如果需要查看其他类型的属性，你可以按N然后选择记得，在属性下切换你想查看的属性类型。<img alt="IMG-20241003102912927.png" src="https://blendercz.top/lib/media/img-20241003102912927.png">
 <br><br>几何数据<br>你要预览特定属性的几何体。
 复制<br>值<br>要预览的属性。（可以在n面板中更换属性类型）
 复制<br><br><img alt="IMG-20240828110659544.png" src="https://blendercz.top/lib/media/img-20240828110659544.png"><br>
-<a data-tooltip-position="top" aria-label="EX_设置位置.canvas" data-href="EX_设置位置.canvas" href="https://blendercz.top/blender/示例文件/ex_设置位置.html" class="internal-link" target="_self" rel="noopener">EX_设置位置</a>]]></description><link>https://blendercz.top/blender/geo-node/输出/预览器_viewer.html</link><guid isPermaLink="false">Blender/Geo Node/输出/预览器_Viewer.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Sun, 29 Sep 2024 10:53:57 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/img-20240828110658785.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/img-20240828110658785.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
+<a data-tooltip-position="top" aria-label="EX_设置位置.canvas" data-href="EX_设置位置.canvas" href="https://blendercz.top/blender/示例文件/ex_设置位置.html" class="internal-link" target="_self" rel="noopener">EX_设置位置</a>]]></description><link>https://blendercz.top/blender/geo-node/输出/预览器_viewer.html</link><guid isPermaLink="false">Blender/Geo Node/输出/预览器_Viewer.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Thu, 03 Oct 2024 02:29:12 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/img-20240828110658785.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/img-20240828110658785.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
  <br><br><img alt="IMG-20240828110658784.png" src="https://blendercz.top/lib/media/img-20240828110658784.png" style="width: 200px; max-width: 100%;"><br>目的
 组输出节点是你的节点设置的终点。
 <br><br>几何数据<br>经过几何节点修改器内连接的所有节点修改过后的几何数据。
@@ -1299,6 +1528,10 @@ A与B中的较小值。
 图像节点可让你从电脑中导入任何图像。
 <br><br>图像<br>你导入的图像。你可以选择打开电脑中的图像，或者创建一个全新的图像。
 复制]]></description><link>https://blendercz.top/blender/geo-node/输入/常量/图像_image.html</link><guid isPermaLink="false">Blender/Geo Node/输入/常量/图像_Image.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Wed, 28 Aug 2024 13:26:06 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20240819225817.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20240819225817.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
+ <br><br><img alt="IMG-20241001213843568.png" src="https://blendercz.top/lib/media/img-20241001213843568.png" style="width: 200px; max-width: 100%;"><br>目的
+节点根据欧拉旋转值创建旋转。
+<br><br>旋转<br>你输入的旋转值。
+复制]]></description><link>https://blendercz.top/blender/geo-node/输入/常量/旋转_rotation.html</link><guid isPermaLink="false">Blender/Geo Node/输入/常量/旋转_Rotation.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Tue, 01 Oct 2024 13:38:43 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/img-20241001213843568.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/img-20241001213843568.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
  <br><br><img alt="Pasted image 20240819224203.png" src="https://blendercz.top/lib/media/pasted-image-20240819224203.png" style="width: 200px; max-width: 100%;"><br>目的
 颜色节点输出一个颜色值。这是一个在几何节点中你可能永远不会使用的节点。
 <br><br>用户选择的颜色值
@@ -1493,7 +1726,7 @@ A与B中的较小值。
 复制<br>是否有效<br>源几何体的点是否可以获得网格的属性值。（UV空间是否重叠）
 复制<br><br><img alt="Pasted image 20240921210524.png" src="https://blendercz.top/lib/media/pasted-image-20240921210524.png"><br>
 <img alt="Pasted image 20240921205924.png" src="https://blendercz.top/lib/media/pasted-image-20240921205924.png"><br>
-<a data-href="采样UV表面_Sample UV Surface" href="https://blendercz.top/blender/geo-node/网格/采样/采样uv表面_sample-uv-surface.html" class="internal-link" target="_self" rel="noopener">采样UV表面_Sample UV Surface</a><br><br><br><a data-href="采样UV表面.blend" href="https://blendercz.top/attachment/采样uv表面.blend" class="internal-link" target="_self" rel="noopener">采样UV表面.blend</a>]]></description><link>https://blendercz.top/blender/geo-node/网格/采样/采样uv表面_sample-uv-surface.html</link><guid isPermaLink="false">Blender/Geo Node/网格/采样/采样UV表面_Sample UV Surface.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Sat, 21 Sep 2024 13:08:20 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20240921194522.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20240921194522.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
+<a data-tooltip-position="top" aria-label="EX_采样UV表面.canvas" data-href="EX_采样UV表面.canvas" href="https://blendercz.top/blender/示例文件/ex_采样uv表面.html" class="internal-link" target="_self" rel="noopener">EX_采样UV表面</a><br><br><br><a data-href="采样UV表面.blend" href="https://blendercz.top/attachment/采样uv表面.blend" class="internal-link" target="_self" rel="noopener">采样UV表面.blend</a>]]></description><link>https://blendercz.top/blender/geo-node/网格/采样/采样uv表面_sample-uv-surface.html</link><guid isPermaLink="false">Blender/Geo Node/网格/采样/采样UV表面_Sample UV Surface.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Wed, 02 Oct 2024 10:54:08 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20240921194522.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20240921194522.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
  <br><br><img alt="Pasted image 20240915183759.png" src="https://blendercz.top/lib/media/pasted-image-20240915183759.png" style="width: 200px; max-width: 100%;"><br>目的
 该节点转换网格使用最短边路径节点的输出转换为曲线。
 <br><br>网格<br>要使用最短边路径节点的输出将网格转为曲线的网格。
@@ -1794,8 +2027,32 @@ A与B中的较小值。
 复制<br><br>边或面<br>选择是平滑边缘还是面
 复制<br><br><img alt="Pasted image 20240828220842.png" src="https://blendercz.top/lib/media/pasted-image-20240828220842.png"><br>
 <img alt="Pasted image 20240828220844.png" src="https://blendercz.top/lib/media/pasted-image-20240828220844.png"><br>
-<a data-tooltip-position="top" aria-label="EX_设置着色平滑.canvas" data-href="EX_设置着色平滑.canvas" href="https://blendercz.top/blender/示例文件/ex_设置着色平滑.html" class="internal-link" target="_self" rel="noopener">EX_设置着色平滑</a><br><br><br><a data-href="设置着色平滑.blend" href="https://blendercz.top/attachment/设置着色平滑.blend" class="internal-link" target="_self" rel="noopener">设置着色平滑.blend</a>]]></description><link>https://blendercz.top/blender/geo-node/网格/写入/设置着色平滑_set-shade-smooth.html</link><guid isPermaLink="false">Blender/Geo Node/网格/写入/设置着色平滑_Set Shade Smooth.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Wed, 28 Aug 2024 14:08:44 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/img-20240828110659715.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/img-20240828110659715.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[拼排UV孤岛]]></title><description><![CDATA[ 
- ]]></description><link>https://blendercz.top/blender/geo-node/网格/uv/拼排uv孤岛.html</link><guid isPermaLink="false">Blender/Geo Node/网格/UV/拼排UV孤岛.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Wed, 28 Aug 2024 13:26:05 GMT</pubDate></item><item><title><![CDATA[白噪波纹理]]></title><description><![CDATA[ 
+<a data-tooltip-position="top" aria-label="EX_设置着色平滑.canvas" data-href="EX_设置着色平滑.canvas" href="https://blendercz.top/blender/示例文件/ex_设置着色平滑.html" class="internal-link" target="_self" rel="noopener">EX_设置着色平滑</a><br><br><br><a data-href="设置着色平滑.blend" href="https://blendercz.top/attachment/设置着色平滑.blend" class="internal-link" target="_self" rel="noopener">设置着色平滑.blend</a>]]></description><link>https://blendercz.top/blender/geo-node/网格/写入/设置着色平滑_set-shade-smooth.html</link><guid isPermaLink="false">Blender/Geo Node/网格/写入/设置着色平滑_Set Shade Smooth.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Wed, 28 Aug 2024 14:08:44 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/img-20240828110659715.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/img-20240828110659715.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
+ <br><br><img alt="IMG-20241003210739365.png" src="https://blendercz.top/lib/media/img-20241003210739365.png" style="width: 200px; max-width: 100%;"><br>目的
+该节点缩放并移动UV孤岛，使它们尽可能地填满UV空间。
+<br><br>UV<br>要修改的UV贴图。
+复制<br>选中项<br>选中哪些UV孤岛进行重新拼排。
+复制<br>边距<br>设置UV孤岛之间的间距。
+复制<br>旋转<br>允许旋转UV孤岛，这样可以达到最佳的效果。
+复制<br><br>UV<br>经过重新拼排后的UV。
+复制<br><br><img alt="IMG-20241003210739424.png" src="https://blendercz.top/lib/media/img-20241003210739424.png"><br>
+<img alt="IMG-20241003210739524.png" src="https://blendercz.top/lib/media/img-20241003210739524.png"><br>
+<img alt="IMG-20241003210739656.png" src="https://blendercz.top/lib/media/img-20241003210739656.png"><br>
+<a data-tooltip-position="top" aria-label="EX_拼排UV孤岛.canvas" data-href="EX_拼排UV孤岛.canvas" href="https://blendercz.top/blender/示例文件/ex_拼排uv孤岛.html" class="internal-link" target="_self" rel="noopener">EX_拼排UV孤岛</a>]]></description><link>https://blendercz.top/blender/geo-node/网格/uv/拼排uv孤岛_pack-uv-islands.html</link><guid isPermaLink="false">Blender/Geo Node/网格/UV/拼排UV孤岛_Pack UV Islands.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Thu, 03 Oct 2024 13:07:39 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/img-20241003210739365.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/img-20241003210739365.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
+ <br><br><img alt="Pasted image 20241003211538.png" src="https://blendercz.top/lib/media/pasted-image-20241003211538.png" style="width: 200px; max-width: 100%;"><br>目的
+该节点基于缝合边的选择生成 UV 贴图。跟编辑模式中按U，进行UV展开差不多。
+<br><br>
+<br>为了让 Blender 识别创建的属性为 UV 贴图，它必须使用<a data-href="存储已命名属性_Store Named Attribute" href="https://blendercz.top/blender/geo-node/属性/存储已命名属性_store-named-attribute.html" class="internal-link" target="_self" rel="noopener">存储已命名属性_Store Named Attribute</a>节点创建，并在面拐域上使用二维矢量数据类型。
+<br><br>选中项<br>你想要UV展开的网格部分。
+复制<br>缝合边<br>跟标记缝合边是一样的意思。
+复制<br>边距<br>设置UV孤岛间的距离。
+复制<br>填充洞面<br>在进行UV展开前，虚拟填充网格中的孔，以更好的避免重叠和保持对称性。
+复制<br><br>UV<br>输出展开后的UV信息。UV坐标在0到1之间。
+复制<br><br>基于角度<br>该方法提供了比较好的UV展开效果。
+复制<br>共形<br>使用LSCM (Least Squared Conformal Mapping)。UV展开效果通常没有基于角度准确，不过对于简单物体效果更好。
+复制<br><br><img alt="Pasted image 20241003223512.png" src="https://blendercz.top/lib/media/pasted-image-20241003223512.png"><br>
+<img alt="Pasted image 20241003223523.png" src="https://blendercz.top/lib/media/pasted-image-20241003223523.png"><br>
+<a data-tooltip-position="top" aria-label="EX_UV展开.canvas" data-href="EX_UV展开.canvas" href="https://blendercz.top/blender/示例文件/ex_uv展开.html" class="internal-link" target="_self" rel="noopener">EX_UV展开</a>]]></description><link>https://blendercz.top/blender/geo-node/网格/uv/uv展开.html</link><guid isPermaLink="false">Blender/Geo Node/网格/UV/UV展开.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Thu, 03 Oct 2024 14:35:28 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/pasted-image-20241003211538.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/pasted-image-20241003211538.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[白噪波纹理]]></title><description><![CDATA[ 
  ]]></description><link>https://blendercz.top/blender/geo-node/纹理/白噪波纹理.html</link><guid isPermaLink="false">Blender/Geo Node/纹理/白噪波纹理.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Wed, 28 Aug 2024 13:26:05 GMT</pubDate></item><item><title><![CDATA[棋盘格纹理]]></title><description><![CDATA[ 
  ]]></description><link>https://blendercz.top/blender/geo-node/纹理/棋盘格纹理.html</link><guid isPermaLink="false">Blender/Geo Node/纹理/棋盘格纹理.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Wed, 28 Aug 2024 13:26:05 GMT</pubDate></item><item><title><![CDATA[沃罗诺伊纹理]]></title><description><![CDATA[ 
  ]]></description><link>https://blendercz.top/blender/geo-node/纹理/沃罗诺伊纹理.html</link><guid isPermaLink="false">Blender/Geo Node/纹理/沃罗诺伊纹理.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Wed, 28 Aug 2024 13:26:05 GMT</pubDate></item><item><title><![CDATA[Blender]]></title><description><![CDATA[ 
