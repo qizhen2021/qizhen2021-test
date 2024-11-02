@@ -1,4 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[CHYIZ的学习库]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://blendercz.top/</link><image><url>https://blendercz.top/lib/media/favicon.png</url><title>CHYIZ的学习库</title><link>https://blendercz.top/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 01 Nov 2024 11:43:44 GMT</lastBuildDate><atom:link href="https://blendercz.top/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 01 Nov 2024 11:39:32 GMT</pubDate><copyright><![CDATA[CHYIZ]]></copyright><ttl>60</ttl><dc:creator>CHYIZ</dc:creator><item><title><![CDATA[节点]]></title><description><![CDATA[ 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[CHYIZ的学习库]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://blendercz.top/</link><image><url>https://blendercz.top/lib/media/favicon.png</url><title>CHYIZ的学习库</title><link>https://blendercz.top/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sat, 02 Nov 2024 09:09:40 GMT</lastBuildDate><atom:link href="https://blendercz.top/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sat, 02 Nov 2024 09:04:47 GMT</pubDate><copyright><![CDATA[CHYIZ]]></copyright><ttl>60</ttl><dc:creator>CHYIZ</dc:creator><item><title><![CDATA[几何数据]]></title><description><![CDATA[ 
+ <br><br><img alt="IMG-20241102162912034.webp" src="https://blendercz.top/lib/media/img-20241102162912034.webp" style="width: 40px; max-width: 100%;"><br>
+<br>所有的几何数据包括：点、边、面、实例、样条线、体积等。
+<br><br><img alt="浮点值.webp" src="https://blendercz.top/lib/media/浮点值.webp" style="width: 40px; max-width: 100%;"><br>
+<br>带有小数的值。如：1.0、3.14等
+<br>比较任意混淆的地方，比如1.0、4.0等按大家的理解他也是个整数，但是在计算机的眼中，他带了小数就是浮点数。
+<br><br><img alt="整数.webp" src="https://blendercz.top/lib/media/整数.webp" style="width: 40px; max-width: 100%;"><br>
+<br>就是整数。如：1、4、8、22等
+<br><br><img alt="布尔值.webp" src="https://blendercz.top/lib/media/布尔值.webp" style="width: 40px; max-width: 100%;"><br>
+<br>它只有两个值，0（假）和1（真）。1就是选中，0就是未选中。因为布尔输出的是值，所以你看到布尔的接口的时候，你完全可以用浮点值和整数的接口接入，他会自动将接入的值舍入到0和1，小于0的值都会变成0，大于0的值都会变成1。
+<br><br><img alt="矢量.webp" src="https://blendercz.top/lib/media/矢量.webp" style="width: 40px; max-width: 100%;"><br>
+<br>矢量就是具有大小和方向的量。我们初中学的矢量基本上都是二维的，那在几何节点中的是三维矢量，多了个Z轴。矢量也是几何节点中最常用的。比如位置，移动，缩放，旋转，法向等。
+<br><br><img alt="旋转.webp" src="https://blendercz.top/lib/media/旋转.webp" style="width: 40px; max-width: 100%;"><br>
+<br>也是可以用矢量来作为输入的，因为同样是三个轴向的值。只不过如果用矢量的话，他是弧度值，而旋转的话他是角度值。弧度值π（3.14）=180°
+<br><br><img alt="变换.webp" src="https://blendercz.top/lib/media/变换.webp" style="width: 40px; max-width: 100%;"><br>
+<br>变换矩阵接口   它里面含有移动信息，旋转信息，还有缩放信息。节点中的矩阵是一个4x4的矩阵，一般人很少用这个，使用这个做效果的门槛要高一些但是可以方便做一些更复杂的变换，具体每个值包含的意思可以查看<a data-href="合并矩阵_Combine Matrix" href="https://blendercz.top/blender/geo-node/实用工具/矩阵/合并矩阵_combine-matrix.html" class="internal-link" target="_self" rel="noopener nofollow">合并矩阵_Combine Matrix</a>。大部分人常用的变换。变换很清晰的列出三个矢量，移动，旋转，缩放。<a data-href="合并变换_Combine Transform" href="https://blendercz.top/blender/geo-node/实用工具/矩阵/合并变换_combine-transform.html" class="internal-link" target="_self" rel="noopener nofollow">合并变换_Combine Transform</a>
+<br><br><img alt="颜色.webp" src="https://blendercz.top/lib/media/颜色.webp" style="width: 40px; max-width: 100%;"><br>
+<br>具有rgba四个通道。可以作为矢量使用，当作为矢量使用的时候只有rgb三个值，对应着xyz。
+<br><br><img alt="材质.webp" src="https://blendercz.top/lib/media/材质.webp" style="width: 40px; max-width: 100%;"><br>
+<br>用来设置几何数据的材质<a data-href="设置材质_Set Material" href="https://blendercz.top/blender/geo-node/材质/设置材质_set-material.html" class="internal-link" target="_self" rel="noopener nofollow">设置材质_Set Material</a>。比如说我们想要把某个材质球应用在几何节点中的几何物体上。
+<br><br><img alt="图像.webp" src="https://blendercz.top/lib/media/图像.webp" style="width: 40px; max-width: 100%;"><br>
+<br>图像的话就是image，可以通过图像纹理节点获取到图片的rgb颜色和alpha值。
+<br><br><img alt="字符串.webp" src="https://blendercz.top/lib/media/字符串.webp" style="width: 40px; max-width: 100%;"><br>
+<br>就是文字，比如数字，字母，标点符号等字符。那这个有什么用呢，一般给几何图像做一些标注啊。或者是一些字体动效，我们可以直接通过这里输入文字。
+]]></description><link>https://blendercz.top/blender/几何节点入门常识/接口/接口_颜色.html</link><guid isPermaLink="false">Blender/几何节点入门常识/接口/接口_颜色.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Sat, 02 Nov 2024 08:43:48 GMT</pubDate><enclosure url="https://blendercz.top/lib/media/img-20241102162912034.webp" length="0" type="image/webp"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blendercz.top/lib/media/img-20241102162912034.webp&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[几何节点入门常识]]></title><description><![CDATA[ 
+ ]]></description><link>https://blendercz.top/blender/几何节点入门常识/几何节点入门常识.html</link><guid isPermaLink="false">Blender/几何节点入门常识/几何节点入门常识.md</guid><dc:creator><![CDATA[CHYIZ]]></dc:creator><pubDate>Sat, 02 Nov 2024 08:08:55 GMT</pubDate></item><item><title><![CDATA[节点]]></title><description><![CDATA[ 
  <br><br><img alt="Pasted image 20240927224904.webp" src="https://blendercz.top/lib/media/pasted-image-20240927224904.webp" style="width: 200px; max-width: 100%;"><br>目的
 该节点包含分配给网格的材质的编号，具体可以看这个节点的描述<a data-href="设置材质编号_Set Material Index" href="https://blendercz.top/blender/geo-node/材质/设置材质编号_set-material-index.html" class="internal-link" target="_self" rel="noopener nofollow">设置材质编号_Set Material Index</a>。
 <br><br>材质编号<br>根据材质属性列表中的材质编号。
